@@ -150,6 +150,14 @@
 						<!-- End Main Content -->
 						<!-- Sidebar -->
 						<aside class="medium-3 hide-for-small-only columns">
+                            <div class="panel">
+                                <h5>More about Memopol</h5>
+                                <ul class="side-nav">
+                                    {% for name, link in MORE %}
+                                    <li><a href="{{ link }}">{{ name }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
 							<div class="panel">
 								<h5>Memopol is used by</h5>
 								<ul class="side-nav">

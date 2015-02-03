@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Memopol Team'
 SITENAME = u'Memopol Project'
-#SITEURL = 'http://www.memopol.org/'
+SITEURL = 'http://www.memopol.org/'
 SITESUBTITLE= 'Bridging the gap between politics and citizens'
 
 PATH = 'content'
@@ -20,7 +20,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-
 # Blogroll
 LINKS = (('La Quadrature du Net', 'https://www.laquadrature.net'),
          ('LQDN\'s Memopol Instance', 'https://memopol.lqdn.fr/'),
@@ -30,11 +29,17 @@ LINKS = (('La Quadrature du Net', 'https://www.laquadrature.net'),
 SOCIAL = (('Twitter', 'https://twitter.com/memopol2'),
          )
 
+MORE =  (('Changing Democracy With Code: A Word From The Developers', '/pages/changing-democracy-with-code-a-word-from-the-developers.html'),
+        ('FAQ (en)', '/pages/faq.html'),
+         ('FAQ (fr)', '/pages/faq-fr.html'),
+        )
+
 DEFAULT_PAGINATION = 5
 
 #menu
 MENUITEMS = (('About', '/pages/about-memopol.html'),
             ('News', '/category/news.html'),
+            ('Development diary','/category/development-diary.html'),
             ('Contribute', '/pages/contribute.html'),
             ('Download & install','/pages/download-install-instructions.html'),
             ('Contact','/pages/contact.html'),
@@ -46,7 +51,7 @@ PLUGIN_PATHS = ["plugins", "/var/www/memopol-blog/plugins/"]
 PLUGINS = ['pin_to_top']
 
 #Theme
-THEME = "/home/quota/pelican-themes/foundation-memopol"
+THEME = "/var/www/memopol-blog/foundation-memopol"
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True

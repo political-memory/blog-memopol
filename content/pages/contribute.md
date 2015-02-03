@@ -15,7 +15,7 @@ You can also report a bug <a href="https://projets.lqdn.fr/projects/mempol/issue
 
 ## Two goals
 * We want people to help : so let's ease the documentation/installation part
-* Separate more core/modules : we want other ngos to use memopol, not just us
+* Separate more core/modules : we want other NGOs to use Memopol, not just us
 
 ## Basic features for /core :
 
@@ -23,22 +23,10 @@ You can also report a bug <a href="https://projets.lqdn.fr/projects/mempol/issue
 
 * Interface for owner of the instance to search for votes, then add voting recommendations on it with preview
 
-* 3 points of view on the data:
+* 3 points of view on the data :
     - by voting recommendations
-
     - by country/groups/politicals parties
-
     - by individuals
+(these are the 3 ways you'll want to look at the data we use)
 
-(we concluded that this was the 3 way you'll want to look at those data)
-
-
-Already having all of that would be a very good start and a lot of work
-
-
-## What we have now :
-    -  nearly nothing
-
-## Needs we can draw from this :
-    - nearly everything 
-
+Already having all of that would be a very good start and a lot of work.

@@ -8,7 +8,7 @@ Political Memory aims to make this as simple as possible by giving citizens an e
 
 More specifically, Political Memory is a piece of software that can be used by anybody to create a website to track their Members of Parliament on any topic they wish, and remember what they said and what they did, as well as score MPs according to chosen criteria.
 
-It is web application, written using the Django Python Framework, designed to be easily deployed on your website.
+It is a web application, written using the Django Python Framework, designed to be easily deployed on your website.
 
 This project, nicknamed Memopol 2, is the 2.0 version of the 1.0 Political Memory tool written by La Quadrature du Net in Perl in the early days of net activism.
 
