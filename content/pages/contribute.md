@@ -17,16 +17,18 @@ You can also report a bug <a href="https://projets.lqdn.fr/projects/mempol/issue
 * We want people to help : so let's ease the documentation/installation part
 * Separate more core/modules : we want other NGOs to use Memopol, not just us
 
-## Basic features for /core :
+## Our next steps
+- A complete redesign of the home page: it is the most important aspect. It's the crucial starting point for all the website. We need it :
+    - to be a helpful stepping stone both to citizens discovering the tool *and* to experienced activists
+    - to be visually attractive
+    - to show useful information, data (dataviz)
+    - to make it quickly obvious what Memopol is and what its purpose is
+    - to offer the possibility to easily post a new “public position” by a MEP
+- A redesign of the MEP (Member of the European Parliament) pages:
+    - overview of the MEP, with adminitrative information
+    - MEP score 
+    - latest public positions with a link to a more complete list
+    - Data visualization about their MEP's score (beautiful graphs, evolution of score, ...) (dataviz)
+    - A quick summary widget of the MEP, showing the most important information, easily re-usable on other websites 
 
-* Up to date data toolchain using django-representatives (compotista) and toutatis (for votes)
-
-* Interface for owner of the instance to search for votes, then add voting recommendations on it with preview
-
-* 3 points of view on the data :
-    - by voting recommendations
-    - by country/groups/politicals parties
-    - by individuals
-(these are the 3 ways you'll want to look at the data we use)
-
-Already having all of that would be a very good start and a lot of work.
+A more precise roadmap can be found [here](https://wiki.laquadrature.net/Projects/Memopol/Roadmap/).
