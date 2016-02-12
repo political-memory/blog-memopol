@@ -1,0 +1,207 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Memopol Project</title>
+		<meta name="description" content="">
+		<meta name="author" content="Memopol Team">
+
+		<link rel="stylesheet" href="./theme/css/foundation.css" />
+		<link rel="stylesheet" href="./theme/css/pygment/monokai.css" />
+        <link rel="stylesheet" href="./theme/css/foundation-icons.css" />
+        <link rel="stylesheet" href="./theme/css/custom.css" />
+
+
+		<script src="./theme/js/modernizr.js"></script>
+
+		<!-- Feeds -->
+
+
+		<!-- mathjax config similar to math.stackexchange -->
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			jax: ["input/TeX", "output/HTML-CSS"],
+			tex2jax: {
+				inlineMath: [ ['$', '$'] ],
+				displayMath: [ ['$$', '$$']],
+				processEscapes: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+			},
+			messageStyle: "none",
+			"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+		});
+		</script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	</head>
+	<body>
+		<div class="off-canvas-wrap">
+			<div class="inner-wrap">
+				<!-- mobile top bar to activate nav -->
+				<nav class="tab-bar show-for-small">
+					<section class="left-small">
+						<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+					</section>
+
+					<section class="middle tab-bar-section">
+						<h1 class="title">Memopol&nbsp;Project</h1>
+					</section>
+				</nav>
+
+				<!-- mobile side bar nav -->
+				<aside class="left-off-canvas-menu">
+					<ul class="off-canvas-list">
+						<li><a href=".">Home</a></li>
+						<li><label>Categories</label></li>
+							<li ><a href="./category/about.html">About</a></li>
+							<li ><a href="./category/development-diary.html">Development diary</a></li>
+							<li ><a href="./category/development-diary-news.html">Development diary, News</a></li>
+							<li ><a href="./category/misc.html">misc</a></li>
+							<li class="active"><a href="./category/news.html">News</a></li>
+							<li ><a href="./category/uncategorized.html">Uncategorized</a></li>
+
+						<li><label>Places</label></li>
+							<li><a href="https://www.laquadrature.net">La Quadrature du Net</a></li>
+							<li><a href="https://memopol.lqdn.fr/">LQDN's Memopol Instance</a></li>
+
+
+
+						<li><label>Links</label></li>
+							<li><a href="https://twitter.com/memopol2">Twitter</a></li>
+					</ul>	
+				</aside>
+
+				<!-- top bar nav -->
+				<nav class="top-bar hide-for-small-only" data-topbar>
+                    <img src="./theme/img/logo.png"/>
+
+					<ul class="title-area">
+						<li class="name">
+							<h1><a href="./">Memopol Project</a></h1><br/>
+                            <span class="slogan">Bridging the gap between politics and citizens</span>
+						</li>
+					</ul>
+
+					<section class="top-bar-section">
+						<ul class="left">
+                                <li><a href="/pages/about-memopol.html">About</a></li>
+                                <li><a href="/category/news.html">News</a></li>
+                                <li><a href="/category/development-diary.html">Development diary</a></li>
+                                <li><a href="/pages/contribute.html">Contribute</a></li>
+                                <li><a href="/pages/download-install-instructions.html">Download & install</a></li>
+                                <li><a href="/pages/contact.html">Contact</a></li>
+                            
+                            
+						</ul>
+					</section>
+				</nav>
+
+				<!-- Main Page Content and Sidebar -->
+				<section class="main-section">
+					<div class="row">
+						<!-- Main Content -->
+						<div class="medium-9 small-12 columns" role="content">
+<article>
+	<h2>Memopol 3.14 Release</h2>
+	<h3>Memopol's back online !</h3>
+<p>A new version of Memopol has been released, <a href="http://lqdn.memopol.eu">LQDN's instance is up</a> and <a href="http://memopol.rtfd.org">documentation has been released</a>.</p>
+<p>A gigantic amount of work has been done since the last release (when was it?), mostly an almost full rewrite of code, as well as a simplification of the installation process. A new design is currently being integrated, as well as previous votes recommendations to start giving MEPs notes.</p>
+<p>Parsing votes from assemblies websites is now working, and it gets easier to keep tabs on MEPs, the one who defends our positions and the one who opposes them. Meaning, it will get easier for people to influence in a positive way the legislative work.</p>
+<h3>Ongoing work</h3>
+<p>The current developments are ongoing:</p>
+<ul>
+<li>support for French assembly and senate, using data from
+  <a href="https://github.com/SocieteCitoyenne/FranceData">FranceData</a> which uses data
+  from <a href="https://www.nosdeputes.fr/">NosDéputés</a> itself for representatives, and
+  includes a parser to scrape votes from the assembly's website,aa</li>
+<li>administration experience improvement: real-time sync of proposals for
+  Dossiers which are part of the ongoing campaigns, and email notifications for
+  administrators when a new proposal is created so that they can setup the
+  recommendation appropriately.</li>
+</ul>
+<h3>We're looking for volunteers !</h3>
+<ul>
+<li>administrators to <a href="http://memopol.readthedocs.org/en/pr/usage.html">manage the website</a>, the first task is
+  to integrate recommendations from the previous version of memopol into this
+  one, this is a manual task because the data sets are completely
+  incompatible.</li>
+<li>an HTML developer willing to learn some Python and Django to integrate v3
+  design, work has been started on the <a href="https://github.com/political-memory/political_memory/tree/v3">v3
+  branch</a>, that
+  branch is under <a href="https://en.wikipedia.org/wiki/Continuous_delivery">CD</a> on a
+  <a href="https://v3-memopol.rhcloud.com">dev instance</a>.</li>
+<li>anyone willing to participate is welcome on the IRC channel, <code>#lqdn-memopol</code>
+  on freenode.</li>
+</ul>
+<h3>Thanks to the team &lt;3</h3>
+<p>Since credit should always be left were it's due, here's the list of
+contributors who made it possible (in alphabetical order):</p>
+<ul>
+<li><a href="https://github.com/psycojoker">Bram</a>, code review, consulting,</li>
+<li><a href="https://github.com/jpic">jpic</a>, code, deployment</li>
+<li><a href="https://github.com/luxcem">luxcem</a>, code</li>
+<li>Mindiell, support</li>
+<li><a href="https://github.com/njoyard">njoyard</a>, code</li>
+<li><a href="http://github.com/okhin">okhin</a>, administration, management, consulting
+  product-owning,</li>
+<li><a href="https://github.com/stef">stef</a>, support and updates
+  <a href="http://parltrack.euwiki.org/">Parltrack</a>, consulting</li>
+</ul>
+	<hr/>
+	<h6>Written by <a href="./author/is_null.html">is_null</a> in <a href="./category/news.html">News</a> on mer. 10 février 2016.</h6>
+</article>
+
+<hr/>
+						</div>
+						<!-- End Main Content -->
+						<!-- Sidebar -->
+						<aside class="medium-3 hide-for-small-only columns">
+                            <div class="panel">
+                                <h5>More about Memopol</h5>
+                                <ul class="side-nav">
+                                    <li><a href="/pages/changing-democracy-with-code-a-word-from-the-developers.html">Changing Democracy With Code: A Word From The Developers</a></li>
+                                    <li><a href="/pages/faq.html">FAQ (en)</a></li>
+                                    <li><a href="/pages/faq-fr.html">FAQ (fr)</a></li>
+                                </ul>
+                            </div>
+							<div class="panel">
+								<h5>Memopol is used by</h5>
+								<ul class="side-nav">
+									<li><a href="https://www.laquadrature.net">La Quadrature du Net</a></li>
+									<li><a href="https://memopol.lqdn.fr/">LQDN's Memopol Instance</a></li>
+								</ul>
+							</div>
+                            
+
+
+							<div class="panel">
+								<h5>Follow us</h5>
+								<ul class="side-nav">
+									<li><a href="https://twitter.com/memopol2">Twitter</a></li>
+								</ul>
+							</div>
+						</aside>
+						<!-- End Sidebar -->
+					</div>
+
+					<!-- Footer -->
+					<footer class="row">
+						<div class="medium-9 small-12">
+							<hr/>
+							<p class="text-center">Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://foundation.zurb.com/">Zurb Foundation</a>. Theme inspired by <a href="http://hamaluik.com">Kenton Hamaluik</a>.</p>
+						</div>
+					</footer>
+					<!-- End Footer -->
+				</section>
+				<a class="exit-off-canvas"></a>
+			</div><!--off-canvas inner-->
+		</div><!--off-canvas wrap-->
+
+		<script src="./theme/js/jquery.js"></script>
+		<script src="./theme/js/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+	</body>
+</html>
