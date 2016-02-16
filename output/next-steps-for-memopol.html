@@ -8,13 +8,13 @@
 		<meta name="description" content="">
 		<meta name="author" content="Memopol Team">
 
-		<link rel="stylesheet" href="../theme/css/foundation.css" />
-		<link rel="stylesheet" href="../theme/css/pygment/monokai.css" />
-        <link rel="stylesheet" href="../theme/css/foundation-icons.css" />
-        <link rel="stylesheet" href="../theme/css/custom.css" />
+		<link rel="stylesheet" href="./theme/css/foundation.css" />
+		<link rel="stylesheet" href="./theme/css/pygment/monokai.css" />
+        <link rel="stylesheet" href="./theme/css/foundation-icons.css" />
+        <link rel="stylesheet" href="./theme/css/custom.css" />
 
 
-		<script src="../theme/js/modernizr.js"></script>
+		<script src="./theme/js/modernizr.js"></script>
 
 		<!-- Feeds -->
 
@@ -52,14 +52,14 @@
 				<!-- mobile side bar nav -->
 				<aside class="left-off-canvas-menu">
 					<ul class="off-canvas-list">
-						<li><a href="..">Home</a></li>
+						<li><a href=".">Home</a></li>
 						<li><label>Categories</label></li>
-							<li ><a href="../category/about.html">About</a></li>
-							<li ><a href="../category/development-diary.html">Development diary</a></li>
-							<li ><a href="../category/development-diary-news.html">Development diary, News</a></li>
-							<li ><a href="../category/misc.html">misc</a></li>
-							<li ><a href="../category/news.html">News</a></li>
-							<li ><a href="../category/uncategorized.html">Uncategorized</a></li>
+							<li ><a href="./category/about.html">About</a></li>
+							<li ><a href="./category/development-diary.html">Development diary</a></li>
+							<li class="active"><a href="./category/development-diary-news.html">Development diary, News</a></li>
+							<li ><a href="./category/misc.html">misc</a></li>
+							<li ><a href="./category/news.html">News</a></li>
+							<li ><a href="./category/uncategorized.html">Uncategorized</a></li>
 
 						<li><label>Places</label></li>
 							<li><a href="https://www.laquadrature.net">La Quadrature du Net</a></li>
@@ -74,11 +74,11 @@
 
 				<!-- top bar nav -->
 				<nav class="top-bar hide-for-small-only" data-topbar>
-                    <img src="../theme/img/logo.png"/>
+                    <img src="./theme/img/logo.png"/>
 
 					<ul class="title-area">
 						<li class="name">
-							<h1><a href="../">Memopol Project</a></h1><br/>
+							<h1><a href="./">Memopol Project</a></h1><br/>
                             <span class="slogan">Bridging the gap between politics and citizens</span>
 						</li>
 					</ul>
@@ -102,20 +102,52 @@
 					<div class="row">
 						<!-- Main Content -->
 						<div class="medium-9 small-12 columns" role="content">
-							<div class="row">
-								<div class="small-12 columns">
-									<h2>Download & Install instructions</h2>
-								</div>
-							</div>
-<div class="row">
-	<div class="small-12 columns">
-		<p>To download Political Memory,</p>
-<p>As of today, you have to clone our git code on our <a href="http://gitorious.org/memopol2-0">gitorious repository</a>.</p>
-<p>For short:
-<code>git clone git://gitorious.org/memopol2-0/memopol2-0.git</code></p>
-<p>Then follow the instructions in the doc/SETUP.txt.</p>
-	</div>
-</div>
+<article>
+	<h2>Next steps for Memopol</h2>
+	<p>Political memory is a nice and important project. A lot of work has been
+done lately to make it more friendly.  </p>
+<p>This is made real because people are here, taking care of the project,
+building it, maintaining it. And, as we want Memopol to be spread
+everywhere, to be powerful, to be better and better, we need people to
+help us achieve this.</p>
+<h2>So, here the thing :</h2>
+<p>We have a tremendously useful tool, Memopol, and we have a bunch of
+organisations starving for a practical way to collect data from their
+parliament(s).<br />
+At the moment, Memopol is very much designed for La Quadrature du Net's
+purpose. That's why it is now so shinny and relevant... for us. But, it
+is not what other organisations are looking for. Organisations fighting
+for spreading farmer seeds want relevant data on last votes about food
+processing or agriculture, French organisations on transparency need
+data from the French Parliament etc.<br />
+La Quadrature du Net doesn't have nor time nor ressources nor interest
+to provide all of those data. It is then these organisations'
+responsibility to deal with this job. Though, it doesn't mean we can't
+help them.  </p>
+<p>So here is the aim of this post: part of the Memopol current team
+volunteered to make this fantastic tool transferrable for other use than
+the fight for fundamental freedoms online. But we need more people ready
+to get dirty in the process.</p>
+<h2>We are looking for :</h2>
+<ul>
+<li>django developper (most important for the moment)</li>
+<li>front end developpers (we aren't using any specific framework, just
+    jquery)</li>
+<li>webdesigners</li>
+<li>people who like to play with data and make datavisualization</li>
+</ul>
+<p>We know a lot of organisations are interested in Memopol, but often,
+they don't have the skills yet to use it. It would be great if we could
+"package" it, making it really easy to handle and then spread it among
+the world. We would see dozens of little Memopol growing up all around
+the Internetz and making thousands of happy activists call and track
+their representatives. That's how we spread datalove</p>
+<p>\&lt;3</p>
+	<hr/>
+	<h6>Written by <a href="./author/quota_atypique.html">quota_atypique</a> in <a href="./category/development-diary-news.html">Development diary, News</a> on mer. 06 mars 2013.</h6>
+</article>
+
+<hr/>
 						</div>
 						<!-- End Main Content -->
 						<!-- Sidebar -->
@@ -161,8 +193,8 @@
 			</div><!--off-canvas inner-->
 		</div><!--off-canvas wrap-->
 
-		<script src="../theme/js/jquery.js"></script>
-		<script src="../theme/js/foundation.min.js"></script>
+		<script src="./theme/js/jquery.js"></script>
+		<script src="./theme/js/foundation.min.js"></script>
 		<script>
 			$(document).foundation();
 		</script>

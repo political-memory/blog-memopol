@@ -8,13 +8,13 @@
 		<meta name="description" content="">
 		<meta name="author" content="Memopol Team">
 
-		<link rel="stylesheet" href="../theme/css/foundation.css" />
-		<link rel="stylesheet" href="../theme/css/pygment/monokai.css" />
-        <link rel="stylesheet" href="../theme/css/foundation-icons.css" />
-        <link rel="stylesheet" href="../theme/css/custom.css" />
+		<link rel="stylesheet" href="./theme/css/foundation.css" />
+		<link rel="stylesheet" href="./theme/css/pygment/monokai.css" />
+        <link rel="stylesheet" href="./theme/css/foundation-icons.css" />
+        <link rel="stylesheet" href="./theme/css/custom.css" />
 
 
-		<script src="../theme/js/modernizr.js"></script>
+		<script src="./theme/js/modernizr.js"></script>
 
 		<!-- Feeds -->
 
@@ -52,14 +52,14 @@
 				<!-- mobile side bar nav -->
 				<aside class="left-off-canvas-menu">
 					<ul class="off-canvas-list">
-						<li><a href="..">Home</a></li>
+						<li><a href=".">Home</a></li>
 						<li><label>Categories</label></li>
-							<li ><a href="../category/about.html">About</a></li>
-							<li ><a href="../category/development-diary.html">Development diary</a></li>
-							<li ><a href="../category/development-diary-news.html">Development diary, News</a></li>
-							<li ><a href="../category/misc.html">misc</a></li>
-							<li ><a href="../category/news.html">News</a></li>
-							<li ><a href="../category/uncategorized.html">Uncategorized</a></li>
+							<li ><a href="./category/about.html">About</a></li>
+							<li ><a href="./category/development-diary.html">Development diary</a></li>
+							<li class="active"><a href="./category/development-diary-news.html">Development diary, News</a></li>
+							<li ><a href="./category/misc.html">misc</a></li>
+							<li ><a href="./category/news.html">News</a></li>
+							<li ><a href="./category/uncategorized.html">Uncategorized</a></li>
 
 						<li><label>Places</label></li>
 							<li><a href="https://www.laquadrature.net">La Quadrature du Net</a></li>
@@ -74,11 +74,11 @@
 
 				<!-- top bar nav -->
 				<nav class="top-bar hide-for-small-only" data-topbar>
-                    <img src="../theme/img/logo.png"/>
+                    <img src="./theme/img/logo.png"/>
 
 					<ul class="title-area">
 						<li class="name">
-							<h1><a href="../">Memopol Project</a></h1><br/>
+							<h1><a href="./">Memopol Project</a></h1><br/>
                             <span class="slogan">Bridging the gap between politics and citizens</span>
 						</li>
 					</ul>
@@ -102,20 +102,45 @@
 					<div class="row">
 						<!-- Main Content -->
 						<div class="medium-9 small-12 columns" role="content">
-							<div class="row">
-								<div class="small-12 columns">
-									<h2>Download & Install instructions</h2>
-								</div>
-							</div>
-<div class="row">
-	<div class="small-12 columns">
-		<p>To download Political Memory,</p>
-<p>As of today, you have to clone our git code on our <a href="http://gitorious.org/memopol2-0">gitorious repository</a>.</p>
-<p>For short:
-<code>git clone git://gitorious.org/memopol2-0/memopol2-0.git</code></p>
-<p>Then follow the instructions in the doc/SETUP.txt.</p>
-	</div>
-</div>
+<article>
+	<h2>What's new on memopol dev n°0</h2>
+	<p>Hello everyone, this is the beginning of a series of development diaries
+to report on the progress of our project!</p>
+<p><strong>Latest improvements:</strong><br />
+As part of the latest improvements we have:</p>
+<p>A great patch by new contributors: <a href="">emel</a> and
+<a href="http://marmelune.net">benoitb</a>. They have managed to reduce the
+incredibly high number of queries on every page where we list european
+deputies.</p>
+<p>Now eurpdeputies' score is displayed in the listings, so you'll see in a
+quick look how net-neutrality friendly your deputy is.<br />
+<em>See, notes are colorized from red to green depending on the value of
+the score :</em></p>
+<p><a href="http://www.memopol.org/wp-content/uploads/2012/04/memopol-notes.png"><img alt="" src="http://www.memopol.org/wp-content/uploads/2012/04/memopol-notes-300x116.png" title="memopol-notes" /></a></p>
+<p>And we can make .csv exports ! Which is great, if you want to download
+the data and have it in your favourite spreadsheets editor. This can
+help to prepare talks, or to play with the data a bit.<br />
+<em>See (it's on the top right of every list) :</em>  </p>
+<p><a href="http://www.memopol.org/wp-content/uploads/2012/04/memopol-csv.jpg"><img alt="" src="http://www.memopol.org/wp-content/uploads/2012/04/memopol-csv-300x107.jpg" title="memopol-csv" /></a></p>
+<p>Another important piece of news: the whole European Parliament website
+has changed. This is both good and bad news.</p>
+<p>Good news, because this new version offers some new information and is
+better overall.</p>
+<p>Bad news, we have less data now, especially the previous commitment of a
+deputy in a commitee, delegation or mandate, and the starting date of
+the current commitment.</p>
+<p><strong>Upcoming:</strong></p>
+<p>News about the design ! We're working on it :)</p>
+<p>Memopol is still <a href="http://www.memopol.org/faq/" title="FAQ (en)">looking for more
+contributors</a>, so send us an
+email or drop by on IRC (#lqdn-memopol on Freenode or via the
+<a href="http://webchat.freenode.net">webchat</a> if you don't have a client) if
+you want to start participating!</p>
+	<hr/>
+	<h6>Written by <a href="./author/bram.html">bram</a> in <a href="./category/development-diary-news.html">Development diary, News</a> on lun. 30 avril 2012.</h6>
+</article>
+
+<hr/>
 						</div>
 						<!-- End Main Content -->
 						<!-- Sidebar -->
@@ -161,8 +186,8 @@
 			</div><!--off-canvas inner-->
 		</div><!--off-canvas wrap-->
 
-		<script src="../theme/js/jquery.js"></script>
-		<script src="../theme/js/foundation.min.js"></script>
+		<script src="./theme/js/jquery.js"></script>
+		<script src="./theme/js/foundation.min.js"></script>
 		<script>
 			$(document).foundation();
 		</script>

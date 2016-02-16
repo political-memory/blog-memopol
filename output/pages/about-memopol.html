@@ -8,13 +8,13 @@
 		<meta name="description" content="">
 		<meta name="author" content="Memopol Team">
 
-		<link rel="stylesheet" href="/theme/css/foundation.css" />
-		<link rel="stylesheet" href="/theme/css/pygment/monokai.css" />
-        <link rel="stylesheet" href="/theme/css/foundation-icons.css" />
-        <link rel="stylesheet" href="/theme/css/custom.css" />
+		<link rel="stylesheet" href="../theme/css/foundation.css" />
+		<link rel="stylesheet" href="../theme/css/pygment/monokai.css" />
+        <link rel="stylesheet" href="../theme/css/foundation-icons.css" />
+        <link rel="stylesheet" href="../theme/css/custom.css" />
 
 
-		<script src="/theme/js/modernizr.js"></script>
+		<script src="../theme/js/modernizr.js"></script>
 
 		<!-- Feeds -->
 
@@ -52,10 +52,14 @@
 				<!-- mobile side bar nav -->
 				<aside class="left-off-canvas-menu">
 					<ul class="off-canvas-list">
-						<li><a href="">Home</a></li>
+						<li><a href="..">Home</a></li>
 						<li><label>Categories</label></li>
-							<li ><a href="/category/misc.html">misc</a></li>
-							<li ><a href="/category/news.html">News</a></li>
+							<li ><a href="../category/about.html">About</a></li>
+							<li ><a href="../category/development-diary.html">Development diary</a></li>
+							<li ><a href="../category/development-diary-news.html">Development diary, News</a></li>
+							<li ><a href="../category/misc.html">misc</a></li>
+							<li ><a href="../category/news.html">News</a></li>
+							<li ><a href="../category/uncategorized.html">Uncategorized</a></li>
 
 						<li><label>Places</label></li>
 							<li><a href="https://www.laquadrature.net">La Quadrature du Net</a></li>
@@ -70,11 +74,11 @@
 
 				<!-- top bar nav -->
 				<nav class="top-bar hide-for-small-only" data-topbar>
-                    <img src="/theme/img/logo.png"/>
+                    <img src="../theme/img/logo.png"/>
 
 					<ul class="title-area">
 						<li class="name">
-							<h1><a href="/">Memopol Project</a></h1><br/>
+							<h1><a href="../">Memopol Project</a></h1><br/>
                             <span class="slogan">Bridging the gap between politics and citizens</span>
 						</li>
 					</ul>
@@ -83,6 +87,7 @@
 						<ul class="left">
                                 <li><a href="/pages/about-memopol.html">About</a></li>
                                 <li><a href="/category/news.html">News</a></li>
+                                <li><a href="/category/development-diary.html">Development diary</a></li>
                                 <li><a href="/pages/contribute.html">Contribute</a></li>
                                 <li><a href="/pages/download-install-instructions.html">Download & install</a></li>
                                 <li><a href="/pages/contact.html">Contact</a></li>
@@ -108,7 +113,7 @@
 <p>The idea is simple: many decisions made in the European Parliament (and in national parliaments) are made knowing most citizens will not know about them. By increasing scrutiny of MEPs’ decisions, we can raise the political cost of these decisions and put citizens back at the heart of policy-making.</p>
 <p>Political Memory aims to make this as simple as possible by giving citizens an easy-to-use interface to visualize their representatives’ votes, written questions, and general decisions, follow their representatives over time, and by giving them a way of quickly getting in touch with MEPs by listing all useful contact information in one place.</p>
 <p>More specifically, Political Memory is a piece of software that can be used by anybody to create a website to track their Members of Parliament on any topic they wish, and remember what they said and what they did, as well as score MPs according to chosen criteria.</p>
-<p>It is web application, written using the Django Python Framework, designed to be easily deployed on your website.</p>
+<p>It is a web application, written using the Django Python Framework, designed to be easily deployed on your website.</p>
 <p>This project, nicknamed Memopol 2, is the 2.0 version of the 1.0 Political Memory tool written by La Quadrature du Net in Perl in the early days of net activism.</p>
 <p>Political Memory is free software (licensed under the Affero GPL license) that anybody can use, share, study, contribute to, debug, translate etc.</p>
 <p>Go to the <a href="/pages/download-install-instructions.html">download page</a> to download political memory, or go to our instance at http://go.memopol.org to see it action.</p>
@@ -118,6 +123,14 @@
 						<!-- End Main Content -->
 						<!-- Sidebar -->
 						<aside class="medium-3 hide-for-small-only columns">
+                            <div class="panel">
+                                <h5>More about Memopol</h5>
+                                <ul class="side-nav">
+                                    <li><a href="/pages/changing-democracy-with-code-a-word-from-the-developers.html">Changing Democracy With Code: A Word From The Developers</a></li>
+                                    <li><a href="/pages/faq.html">FAQ (en)</a></li>
+                                    <li><a href="/pages/faq-fr.html">FAQ (fr)</a></li>
+                                </ul>
+                            </div>
 							<div class="panel">
 								<h5>Memopol is used by</h5>
 								<ul class="side-nav">
@@ -151,8 +164,8 @@
 			</div><!--off-canvas inner-->
 		</div><!--off-canvas wrap-->
 
-		<script src="/theme/js/jquery.js"></script>
-		<script src="/theme/js/foundation.min.js"></script>
+		<script src="../theme/js/jquery.js"></script>
+		<script src="../theme/js/foundation.min.js"></script>
 		<script>
 			$(document).foundation();
 		</script>

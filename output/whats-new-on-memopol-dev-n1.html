@@ -8,13 +8,13 @@
 		<meta name="description" content="">
 		<meta name="author" content="Memopol Team">
 
-		<link rel="stylesheet" href="../theme/css/foundation.css" />
-		<link rel="stylesheet" href="../theme/css/pygment/monokai.css" />
-        <link rel="stylesheet" href="../theme/css/foundation-icons.css" />
-        <link rel="stylesheet" href="../theme/css/custom.css" />
+		<link rel="stylesheet" href="./theme/css/foundation.css" />
+		<link rel="stylesheet" href="./theme/css/pygment/monokai.css" />
+        <link rel="stylesheet" href="./theme/css/foundation-icons.css" />
+        <link rel="stylesheet" href="./theme/css/custom.css" />
 
 
-		<script src="../theme/js/modernizr.js"></script>
+		<script src="./theme/js/modernizr.js"></script>
 
 		<!-- Feeds -->
 
@@ -52,14 +52,14 @@
 				<!-- mobile side bar nav -->
 				<aside class="left-off-canvas-menu">
 					<ul class="off-canvas-list">
-						<li><a href="..">Home</a></li>
+						<li><a href=".">Home</a></li>
 						<li><label>Categories</label></li>
-							<li ><a href="../category/about.html">About</a></li>
-							<li ><a href="../category/development-diary.html">Development diary</a></li>
-							<li ><a href="../category/development-diary-news.html">Development diary, News</a></li>
-							<li ><a href="../category/misc.html">misc</a></li>
-							<li ><a href="../category/news.html">News</a></li>
-							<li ><a href="../category/uncategorized.html">Uncategorized</a></li>
+							<li ><a href="./category/about.html">About</a></li>
+							<li class="active"><a href="./category/development-diary.html">Development diary</a></li>
+							<li ><a href="./category/development-diary-news.html">Development diary, News</a></li>
+							<li ><a href="./category/misc.html">misc</a></li>
+							<li ><a href="./category/news.html">News</a></li>
+							<li ><a href="./category/uncategorized.html">Uncategorized</a></li>
 
 						<li><label>Places</label></li>
 							<li><a href="https://www.laquadrature.net">La Quadrature du Net</a></li>
@@ -74,11 +74,11 @@
 
 				<!-- top bar nav -->
 				<nav class="top-bar hide-for-small-only" data-topbar>
-                    <img src="../theme/img/logo.png"/>
+                    <img src="./theme/img/logo.png"/>
 
 					<ul class="title-area">
 						<li class="name">
-							<h1><a href="../">Memopol Project</a></h1><br/>
+							<h1><a href="./">Memopol Project</a></h1><br/>
                             <span class="slogan">Bridging the gap between politics and citizens</span>
 						</li>
 					</ul>
@@ -102,20 +102,52 @@
 					<div class="row">
 						<!-- Main Content -->
 						<div class="medium-9 small-12 columns" role="content">
-							<div class="row">
-								<div class="small-12 columns">
-									<h2>Download & Install instructions</h2>
-								</div>
-							</div>
-<div class="row">
-	<div class="small-12 columns">
-		<p>To download Political Memory,</p>
-<p>As of today, you have to clone our git code on our <a href="http://gitorious.org/memopol2-0">gitorious repository</a>.</p>
-<p>For short:
-<code>git clone git://gitorious.org/memopol2-0/memopol2-0.git</code></p>
-<p>Then follow the instructions in the doc/SETUP.txt.</p>
-	</div>
-</div>
+<article>
+	<h2>What’s new on memopol dev n°1</h2>
+	<p>Hmm, what did we do last week ?</p>
+<p>We are still working on the design. We gathered a bit more feedback from
+the ones that worked on it at the last quadratelier. Webdesigners need
+more poking around, but we have no worries, quota_atypique pokes around
+a lot.</p>
+<p>We are about to have a new logo, thanks to cocodaemon \o/  </p>
+<p><img alt="logo" src="https://github.com/Psycojoker/memopol2/raw/a809a861f29a4f99c65945cc84a7adf9d8244097/memopol2/static/img/logo.png" />  </p>
+<p>This may not be the final version, we are waiting for feedback,
+validations, and all that stuff before saying to the world that we have
+a beauuuutiful logo.</p>
+<p>We thought about the users who love beautiful things, we thought also
+about the administrators and the developers :  we updated the README
+with new informations, so you won't get lost in all this data. The goal
+is to make it useful to you!  </p>
+<p>You can see it here
+→<a href="https://github.com/Psycojoker/memopol2#introduction">https://github.com/Psycojoker/memopol2#introduction</a></p>
+<p>And we also updated the contributors list, here
+→<a href="https://gitorious.org/memopol2-0/memopol2-0/blobs/master/CREDITS.txt">https://gitorious.org/memopol2-0/memopol2-0/blobs/master/CREDITS.txt</a></p>
+<p>We also wrote some documentation to help you understand the trend charts
+you can see on Memopol.<br />
+It's still on dev, we are waiting for feedback before publishing it.
+We'll keep you in touch.</p>
+<p>We also fixed some little useful points :</p>
+<ul>
+<li>we finish retrieving missing deputies' opinions data from the first
+    version of Memopol, split them between European Parliament and
+    French Nationnal Assemblee and fix the displaying!</li>
+<li>SEO stuff: when the server is on debug mode, the robots.txt displays
+    a disallow : / for each robot.</li>
+<li>we pushed i18n support and are translating it to french, <a href="https://www.transifex.net/projects/p/memopol2/language/fr/">don't
+    hesitate to come and help
+    us</a> (ask
+    to join the team, we'll approve you ASAP)!</li>
+</ul>
+<p>So, next steps :</p>
+<ul>
+<li>Design, design, design</li>
+<li>Write moar documentation</li>
+</ul>
+	<hr/>
+	<h6>Written by <a href="./author/bram.html">bram</a> in <a href="./category/development-diary.html">Development diary</a> on ven. 11 mai 2012.</h6>
+</article>
+
+<hr/>
 						</div>
 						<!-- End Main Content -->
 						<!-- Sidebar -->
@@ -161,8 +193,8 @@
 			</div><!--off-canvas inner-->
 		</div><!--off-canvas wrap-->
 
-		<script src="../theme/js/jquery.js"></script>
-		<script src="../theme/js/foundation.min.js"></script>
+		<script src="./theme/js/jquery.js"></script>
+		<script src="./theme/js/foundation.min.js"></script>
 		<script>
 			$(document).foundation();
 		</script>

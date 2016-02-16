@@ -1,0 +1,291 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Memopol Project</title>
+		<meta name="description" content="">
+		<meta name="author" content="Memopol Team">
+
+		<link rel="stylesheet" href="../theme/css/foundation.css" />
+		<link rel="stylesheet" href="../theme/css/pygment/monokai.css" />
+        <link rel="stylesheet" href="../theme/css/foundation-icons.css" />
+        <link rel="stylesheet" href="../theme/css/custom.css" />
+
+
+		<script src="../theme/js/modernizr.js"></script>
+
+		<!-- Feeds -->
+
+
+		<!-- mathjax config similar to math.stackexchange -->
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			jax: ["input/TeX", "output/HTML-CSS"],
+			tex2jax: {
+				inlineMath: [ ['$', '$'] ],
+				displayMath: [ ['$$', '$$']],
+				processEscapes: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+			},
+			messageStyle: "none",
+			"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+		});
+		</script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	</head>
+	<body>
+		<div class="off-canvas-wrap">
+			<div class="inner-wrap">
+				<!-- mobile top bar to activate nav -->
+				<nav class="tab-bar show-for-small">
+					<section class="left-small">
+						<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+					</section>
+
+					<section class="middle tab-bar-section">
+						<h1 class="title">Memopol&nbsp;Project</h1>
+					</section>
+				</nav>
+
+				<!-- mobile side bar nav -->
+				<aside class="left-off-canvas-menu">
+					<ul class="off-canvas-list">
+						<li><a href="..">Home</a></li>
+						<li><label>Categories</label></li>
+							<li ><a href="../category/about.html">About</a></li>
+							<li ><a href="../category/development-diary.html">Development diary</a></li>
+							<li ><a href="../category/development-diary-news.html">Development diary, News</a></li>
+							<li ><a href="../category/misc.html">misc</a></li>
+							<li ><a href="../category/news.html">News</a></li>
+							<li ><a href="../category/uncategorized.html">Uncategorized</a></li>
+
+						<li><label>Places</label></li>
+							<li><a href="https://www.laquadrature.net">La Quadrature du Net</a></li>
+							<li><a href="https://memopol.lqdn.fr/">LQDN's Memopol Instance</a></li>
+
+
+
+						<li><label>Links</label></li>
+							<li><a href="https://twitter.com/memopol2">Twitter</a></li>
+					</ul>	
+				</aside>
+
+				<!-- top bar nav -->
+				<nav class="top-bar hide-for-small-only" data-topbar>
+                    <img src="../theme/img/logo.png"/>
+
+					<ul class="title-area">
+						<li class="name">
+							<h1><a href="../">Memopol Project</a></h1><br/>
+                            <span class="slogan">Bridging the gap between politics and citizens</span>
+						</li>
+					</ul>
+
+					<section class="top-bar-section">
+						<ul class="left">
+                                <li><a href="/pages/about-memopol.html">About</a></li>
+                                <li><a href="/category/news.html">News</a></li>
+                                <li><a href="/category/development-diary.html">Development diary</a></li>
+                                <li><a href="/pages/contribute.html">Contribute</a></li>
+                                <li><a href="/pages/download-install-instructions.html">Download & install</a></li>
+                                <li><a href="/pages/contact.html">Contact</a></li>
+                            
+                            
+						</ul>
+					</section>
+				</nav>
+
+				<!-- Main Page Content and Sidebar -->
+				<section class="main-section">
+					<div class="row">
+						<!-- Main Content -->
+						<div class="medium-9 small-12 columns" role="content">
+							<div class="row">
+								<div class="small-12 columns">
+									<h2>Changing Democracy With Code: A Word From The Developers</h2>
+								</div>
+							</div>
+<div class="row">
+	<div class="small-12 columns">
+		<h2>Why we citizens need Memopol.</h2>
+<h3>A simple observation</h3>
+<p>It all starts with a simple observation:</p>
+<p>During an election, when you have the possibility to vote to choose your
+new representative, most of the time the elements that can help you make
+a choice are:</p>
+<ul>
+<li>the representative's party's program</li>
+<li>their communication campaign</li>
+<li>the promises they made</li>
+<li>your historical attachment for the representative's party or for the
+    candidate</li>
+<li>the vibe you have for a candidate</li>
+<li>maybe some analysis published in the press or on TV that barely gave
+    you any comprehensive / understandable information and is most of
+    the time biased…</li>
+<li>and sometimes, you might even remember a few thingsthey've done</li>
+</ul>
+<p>Sounds fine?</p>
+<p>Well in fact, if we take a closer look at it, we see that there is
+nearly nothing concrete (/rational) in this. Nearly all those elements
+are emotional.</p>
+<p>Don't you find this annoying?</p>
+<p>Let me rephrase it: <em>when you vote for a representative, your choice
+nearly never (hardly ever) relies on anything concrete</em>.</p>
+<p>In fact, most of the time, nobody will do intensive research to see what
+those elected representatives have actually done in their political
+carrier before they decide to vote for them. This just takes too much
+time and involvement, and it's really complicated to do.</p>
+<h3>Two worlds</h3>
+<p>And if we take a look at the global picture, we see that we have two
+worlds: the political world and the citizen world, our world. They
+barely talk to each other and they hardly understand each other.</p>
+<p>This lead to the unpleasant consequences that we know:</p>
+<ul>
+<li>most of the time we blame the political world for being totally
+    disconnected from our reality and it's hard for us to pass a message
+    or a recommendation to their world, we feel that most of the time we
+    aren't being listened to.</li>
+<li>on the other hand those representatives are nearly never gratified
+    or sanctioned when listening to us or actually representing us,
+    since we don't use that information when we choose who to vote for.
+    So they don't have incentive to do so.</li>
+</ul>
+<p>This situation is barely acceptable. Let's be proactive citizens: how
+can we try to improve this?</p>
+<p>Well, let's start by simplifying this a bit: we can identify two
+important causes of the problem.</p>
+<ul>
+<li>Our memory, as in “the human memory is really bad, we are barely
+    capable of remembering what we ate 3 weeks ago”. How can we expect
+    to remember what an elected representative did during the past
+    several years?Assuming we were even aware of what they did.</li>
+<li>The complexity of the system, as in “the political system is
+    horribly complex, it's hard for a citizen to really understand it”.</li>
+</ul>
+<h3>The Magic box</h3>
+<p>From a programmer's point of view, the memory part isn't very hard to
+solve. It's a very common task: collect data, store data, display data
+and gather user input. It's not specifically hard nor easy, it just
+takes time to code. In fact, a lot of people have already done this. So,
+let's say that we have coded it, and let's call it our magic box.</p>
+<p><a href="http://www.memopol.org/wp-content/uploads/2011/10/magicalbox.png"><img alt="magicalbox" src="http://www.memopol.org/wp-content/uploads/2011/10/magicalbox-300x225.png" title="magicalbox" /></a></p>
+<p>Our magic box contains all the data we have been able to gather on our
+elected representatives, like their public information (contact
+information, mandate, party, group etc...), their public speeches, their
+votes, the amendments they tabled, etc...</p>
+<p>Now, let's use our magical box. We are asked to choose between several
+candidates, so let's ask our box to tell us what it knows about them.
+Well here's the catch: we end up with a mountain of data that we can
+barely understand.</p>
+<p>Complexity just hit us.</p>
+<p>So how do we solve complexity?</p>
+<p>Complexity is annoying because we can't solve it by coding.</p>
+<p>But we can use a trick. Maybe, we can't manage this complexity, but, we
+know people that we trust and that can solve this complexity for certain
+subjects that they've mastered, for which they have expertise. For
+example, I trust la Quadrature du Net on Internet Freedom related
+subjects.</p>
+<p>But how can we use that?</p>
+<h3>Solving complexity</h3>
+<p>Let's use another trick: let's ask la Quadrature du Net to give us the
+best way for an elected representative to vote on texts related to the
+subjects la Quadrature du Net have an expertise on. And here the magic
+happens: if we combine those voting recommendations with our magical
+box, we get a ranking of the elected representatives, organised
+according to the ideal behaviour this advocacy group promotes.</p>
+<p>This begins to be interesting.</p>
+<p>In other words:</p>
+<ul>
+<li>Magic box + la Quadrature du Net's voting recommendations = semi
+    accurate concrete data on who represents me the best</li>
+</ul>
+<p>You get the idea? Let's ask all the citizen groups that represent our
+interests to do the same.</p>
+<p>This gives us:</p>
+<ul>
+<li>Magic box + voting recommendation of all citizen groups that
+    represent our interests = way more accurate concrete data of who
+    represents me the best</li>
+</ul>
+<p>We just solved complexity.</p>
+<p>In fact, what I want to see (and to build) in the future would be a
+website that allows me, and every citizen, to:</p>
+<ul>
+<li>Select a series of representatives I can vote for;</li>
+<li>Select a list of citizen groups that I personally trust to represent
+    my interests;</li>
+<li>Decide if I want to give certain groups more weight to better
+    represent my concerns and priorities (we could even imagine giving
+    negative weight to citizen groups we dislike);</li>
+<li>And have in result concrete data on which I can rely to make my
+    choice.</li>
+</ul>
+<p>And you know what? Being able to do this won't even be the best reward.</p>
+<p>The best reward will come when elected representatives start realising
+that we actually know what they are doing and that their actions
+matters. Guess how they will change their behaviour.</p>
+<p>And this is only the beginning. For instance, having a real time feed of
+what your elected representative is doing on the subjects that matter
+for you will be really easy.</p>
+<p>What this magical box is offering you is a paradigm shift, a bridge
+between those two worlds for them to better understand each other and to
+work together again.</p>
+<p>Memopol is the magical box we are building.</p>
+<p>It's time for us, citizens, to take back our role in politics.</p>
+	</div>
+</div>
+						</div>
+						<!-- End Main Content -->
+						<!-- Sidebar -->
+						<aside class="medium-3 hide-for-small-only columns">
+                            <div class="panel">
+                                <h5>More about Memopol</h5>
+                                <ul class="side-nav">
+                                    <li><a href="/pages/changing-democracy-with-code-a-word-from-the-developers.html">Changing Democracy With Code: A Word From The Developers</a></li>
+                                    <li><a href="/pages/faq.html">FAQ (en)</a></li>
+                                    <li><a href="/pages/faq-fr.html">FAQ (fr)</a></li>
+                                </ul>
+                            </div>
+							<div class="panel">
+								<h5>Memopol is used by</h5>
+								<ul class="side-nav">
+									<li><a href="https://www.laquadrature.net">La Quadrature du Net</a></li>
+									<li><a href="https://memopol.lqdn.fr/">LQDN's Memopol Instance</a></li>
+								</ul>
+							</div>
+                            
+
+
+							<div class="panel">
+								<h5>Follow us</h5>
+								<ul class="side-nav">
+									<li><a href="https://twitter.com/memopol2">Twitter</a></li>
+								</ul>
+							</div>
+						</aside>
+						<!-- End Sidebar -->
+					</div>
+
+					<!-- Footer -->
+					<footer class="row">
+						<div class="medium-9 small-12">
+							<hr/>
+							<p class="text-center">Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://foundation.zurb.com/">Zurb Foundation</a>. Theme inspired by <a href="http://hamaluik.com">Kenton Hamaluik</a>.</p>
+						</div>
+					</footer>
+					<!-- End Footer -->
+				</section>
+				<a class="exit-off-canvas"></a>
+			</div><!--off-canvas inner-->
+		</div><!--off-canvas wrap-->
+
+		<script src="../theme/js/jquery.js"></script>
+		<script src="../theme/js/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+	</body>
+</html>

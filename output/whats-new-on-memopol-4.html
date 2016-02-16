@@ -8,13 +8,13 @@
 		<meta name="description" content="">
 		<meta name="author" content="Memopol Team">
 
-		<link rel="stylesheet" href="../theme/css/foundation.css" />
-		<link rel="stylesheet" href="../theme/css/pygment/monokai.css" />
-        <link rel="stylesheet" href="../theme/css/foundation-icons.css" />
-        <link rel="stylesheet" href="../theme/css/custom.css" />
+		<link rel="stylesheet" href="./theme/css/foundation.css" />
+		<link rel="stylesheet" href="./theme/css/pygment/monokai.css" />
+        <link rel="stylesheet" href="./theme/css/foundation-icons.css" />
+        <link rel="stylesheet" href="./theme/css/custom.css" />
 
 
-		<script src="../theme/js/modernizr.js"></script>
+		<script src="./theme/js/modernizr.js"></script>
 
 		<!-- Feeds -->
 
@@ -52,14 +52,14 @@
 				<!-- mobile side bar nav -->
 				<aside class="left-off-canvas-menu">
 					<ul class="off-canvas-list">
-						<li><a href="..">Home</a></li>
+						<li><a href=".">Home</a></li>
 						<li><label>Categories</label></li>
-							<li ><a href="../category/about.html">About</a></li>
-							<li ><a href="../category/development-diary.html">Development diary</a></li>
-							<li ><a href="../category/development-diary-news.html">Development diary, News</a></li>
-							<li ><a href="../category/misc.html">misc</a></li>
-							<li ><a href="../category/news.html">News</a></li>
-							<li ><a href="../category/uncategorized.html">Uncategorized</a></li>
+							<li ><a href="./category/about.html">About</a></li>
+							<li ><a href="./category/development-diary.html">Development diary</a></li>
+							<li ><a href="./category/development-diary-news.html">Development diary, News</a></li>
+							<li ><a href="./category/misc.html">misc</a></li>
+							<li class="active"><a href="./category/news.html">News</a></li>
+							<li ><a href="./category/uncategorized.html">Uncategorized</a></li>
 
 						<li><label>Places</label></li>
 							<li><a href="https://www.laquadrature.net">La Quadrature du Net</a></li>
@@ -74,11 +74,11 @@
 
 				<!-- top bar nav -->
 				<nav class="top-bar hide-for-small-only" data-topbar>
-                    <img src="../theme/img/logo.png"/>
+                    <img src="./theme/img/logo.png"/>
 
 					<ul class="title-area">
 						<li class="name">
-							<h1><a href="../">Memopol Project</a></h1><br/>
+							<h1><a href="./">Memopol Project</a></h1><br/>
                             <span class="slogan">Bridging the gap between politics and citizens</span>
 						</li>
 					</ul>
@@ -102,20 +102,59 @@
 					<div class="row">
 						<!-- Main Content -->
 						<div class="medium-9 small-12 columns" role="content">
-							<div class="row">
-								<div class="small-12 columns">
-									<h2>Download & Install instructions</h2>
-								</div>
-							</div>
-<div class="row">
-	<div class="small-12 columns">
-		<p>To download Political Memory,</p>
-<p>As of today, you have to clone our git code on our <a href="http://gitorious.org/memopol2-0">gitorious repository</a>.</p>
-<p>For short:
-<code>git clone git://gitorious.org/memopol2-0/memopol2-0.git</code></p>
-<p>Then follow the instructions in the doc/SETUP.txt.</p>
-	</div>
-</div>
+<article>
+	<h2>What's new on Memopol ? #4</h2>
+	<p>Hello!</p>
+<p>Like you, Memopol is back from holidays! Let's come back to work happily
+with some news of our beloved project.</p>
+<h2>More and more data</h2>
+<p>What occured this summer? Ah, ACTA. We enjoyed the victory importing the
+data of the votes about the treaty. You can see them here →
+<a href="https://memopol.lqdn.fr/europe/parliament/vote/acta_final/">https://memopol.lqdn.fr/europe/parliament/vote/acta_final/</a></p>
+<p><a href="https://memopol.lqdn.fr/europe/parliament/vote/acta_final/"><img alt="" src="http://memopol.lqdn.fr/trends/proposal/acta_final-countries-map.png" /></a></p>
+<p>We are also working on merging memopol1 opinion's code with the new one.</p>
+<h2>An easier and faster tool</h2>
+<p>We did a lot of queries optimization, memopol is now way faster than
+before. Also we have made some internal code refactoring for a better
+organisation. (Thanks to the coders \o/) We are happy to welcome new
+contributors !</p>
+<p>There is also a new clean tool to remove added data from LQDN to make
+Memopol clean for another citizen groups : this will be useful, because
+we want our tool to be used and reused by others. Good idead have to be
+spread everywhere :)</p>
+<p>On the UX and design side, we are proud to announce we have a WIP
+advanced search form that will replace all the current listing. This
+will allow everyone to do advanced research. You can play with it here:
+<a href="http://mempol2.serverside.fr/europe/parliament/search/">http://mempol2.serverside.fr/europe/parliament/search/</a>
+Many thanks to <a href="https://twitter.com/informagicien">Yohan</a> for this great
+work!</p>
+<h2>Spreading the word</h2>
+<p>Bram did a lot to spread the word : he did two presentations about
+Memopol, at the FNF2012 (Freedom Not Fear) and at the SFD2012 (Software
+Freedom Day).</p>
+<p>You can see them here :</p>
+<p><em>Software Freedom Day</em> :<br />
+→
+<a href="https://hackerspace.be/Software_Freedom_Day_2012#Hack_the_democarcy_with_the_Political_Memory_of_la_Quadrature_du_Net">https://hackerspace.be/Software_Freedom_Day_2012#Hack_the_democarcy_with_the_Political_Memory_of_la_Quadrature_du_Net</a>  </p>
+<p>→
+<a href="http://worlddomination.be/blog/2012/software-freedom-day-2012-slides-political-memory-la-quadrature-du-net-dierentheater.html">http://worlddomination.be/blog/2012/software-freedom-day-2012-slides-political-memory-la-quadrature-du-net-dierentheater.html<br />
+</a></p>
+<p><em>Freedom Not Fear :</em><br />
+→
+<a href="http://worlddomination.be/blog/2012/fnf2012-slides-how-to-lobby-the-eu.html">http://worlddomination.be/blog/2012/fnf2012-slides-how-to-lobby-the-eu.html</a>  </p>
+<p>→<a href="https://wiki.vorratsdatenspeicherung.de/Freedom_Not_Fear_2012/Schedule#Sunday_.2816-Sep-2012.29">https://wiki.vorratsdatenspeicherung.de/Freedom_Not_Fear_2012/Schedule#Sunday_.2816-Sep-2012.29</a></p>
+<h2>One last thing</h2>
+<p>Memopol will be one of the projects we'll work on at the Quadrature
+Communication Camp that will occur in Paris the 19th to the 21st of
+october. If you want to code all night long for the project, design it,
+and --of course-- have fun, please come over ! →
+<a href="http://www.laquadrature.net/wiki/Quadrature_Communication_Camp">http://www.laquadrature.net/wiki/Quadrature_Communication_Camp</a></p>
+<p>We'll be back soon with news \o/</p>
+	<hr/>
+	<h6>Written by <a href="./author/quota_atypique.html">quota_atypique</a> in <a href="./category/news.html">News</a> on mar. 02 octobre 2012.</h6>
+</article>
+
+<hr/>
 						</div>
 						<!-- End Main Content -->
 						<!-- Sidebar -->
@@ -161,8 +200,8 @@
 			</div><!--off-canvas inner-->
 		</div><!--off-canvas wrap-->
 
-		<script src="../theme/js/jquery.js"></script>
-		<script src="../theme/js/foundation.min.js"></script>
+		<script src="./theme/js/jquery.js"></script>
+		<script src="./theme/js/foundation.min.js"></script>
 		<script>
 			$(document).foundation();
 		</script>

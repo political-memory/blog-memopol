@@ -8,13 +8,13 @@
 		<meta name="description" content="">
 		<meta name="author" content="Memopol Team">
 
-		<link rel="stylesheet" href="../theme/css/foundation.css" />
-		<link rel="stylesheet" href="../theme/css/pygment/monokai.css" />
-        <link rel="stylesheet" href="../theme/css/foundation-icons.css" />
-        <link rel="stylesheet" href="../theme/css/custom.css" />
+		<link rel="stylesheet" href="./theme/css/foundation.css" />
+		<link rel="stylesheet" href="./theme/css/pygment/monokai.css" />
+        <link rel="stylesheet" href="./theme/css/foundation-icons.css" />
+        <link rel="stylesheet" href="./theme/css/custom.css" />
 
 
-		<script src="../theme/js/modernizr.js"></script>
+		<script src="./theme/js/modernizr.js"></script>
 
 		<!-- Feeds -->
 
@@ -52,14 +52,14 @@
 				<!-- mobile side bar nav -->
 				<aside class="left-off-canvas-menu">
 					<ul class="off-canvas-list">
-						<li><a href="..">Home</a></li>
+						<li><a href=".">Home</a></li>
 						<li><label>Categories</label></li>
-							<li ><a href="../category/about.html">About</a></li>
-							<li ><a href="../category/development-diary.html">Development diary</a></li>
-							<li ><a href="../category/development-diary-news.html">Development diary, News</a></li>
-							<li ><a href="../category/misc.html">misc</a></li>
-							<li ><a href="../category/news.html">News</a></li>
-							<li ><a href="../category/uncategorized.html">Uncategorized</a></li>
+							<li class="active"><a href="./category/about.html">About</a></li>
+							<li ><a href="./category/development-diary.html">Development diary</a></li>
+							<li ><a href="./category/development-diary-news.html">Development diary, News</a></li>
+							<li ><a href="./category/misc.html">misc</a></li>
+							<li ><a href="./category/news.html">News</a></li>
+							<li ><a href="./category/uncategorized.html">Uncategorized</a></li>
 
 						<li><label>Places</label></li>
 							<li><a href="https://www.laquadrature.net">La Quadrature du Net</a></li>
@@ -74,11 +74,11 @@
 
 				<!-- top bar nav -->
 				<nav class="top-bar hide-for-small-only" data-topbar>
-                    <img src="../theme/img/logo.png"/>
+                    <img src="./theme/img/logo.png"/>
 
 					<ul class="title-area">
 						<li class="name">
-							<h1><a href="../">Memopol Project</a></h1><br/>
+							<h1><a href="./">Memopol Project</a></h1><br/>
                             <span class="slogan">Bridging the gap between politics and citizens</span>
 						</li>
 					</ul>
@@ -102,20 +102,70 @@
 					<div class="row">
 						<!-- Main Content -->
 						<div class="medium-9 small-12 columns" role="content">
-							<div class="row">
-								<div class="small-12 columns">
-									<h2>Download & Install instructions</h2>
-								</div>
-							</div>
-<div class="row">
-	<div class="small-12 columns">
-		<p>To download Political Memory,</p>
-<p>As of today, you have to clone our git code on our <a href="http://gitorious.org/memopol2-0">gitorious repository</a>.</p>
-<p>For short:
-<code>git clone git://gitorious.org/memopol2-0/memopol2-0.git</code></p>
-<p>Then follow the instructions in the doc/SETUP.txt.</p>
-	</div>
-</div>
+<article>
+	<h2>An Introduction to the project</h2>
+	<p>The best way to explain what Political Memory is, is by explaining where
+it came from.</p>
+<p>So, let's start by a bit of context. Political Memory is a tool built by
+<a href="http://laquadrature.net">La Quadrature du Net</a>. It is its major
+campaigning tool.</p>
+<p>La Quadrature du Net is a citizen group defending fundamental rights on
+the Internet by:</p>
+<ul>
+<li>raising citizen awareness about their political representatives'
+    actions</li>
+<li>trying to get citizens involved in the political life and demand of
+    their representatives that they represent and defend their rights</li>
+<li>acting very closely with these representatives</li>
+<li>organising campaigns during which citizens contact their
+    representatives before certain votes or for given occasions,
+    educating or warning MPs about issues</li>
+<li>getting MEPs to sign written declarations (for instance, La
+    Quadrature campaigned on a written declaration about
+    <a href="http://laquadrature.net/en/ACTA">ACTA</a> which over half the MEPs
+    signed)</li>
+<li>and most importantly, trying to increase the political cost of
+    decisions. Making sure elected representatives think long and hard
+    about what their constituents will think of their decisions. The
+    Hadopi “three-strike” law in France is a very good example of that.</li>
+</ul>
+<p>In order to reach these goals, Political Memory tries to make it easy
+for citizens to:</p>
+<ul>
+<li>follow la Quadrature's work, and campaigns</li>
+<li>understand their representatives' actions</li>
+<li>make it easy to contact their representatives</li>
+<li>raise the political cost of representatives' decisions by keeping
+    them under close scrutiny</li>
+</ul>
+<p>In order to work, Political Memory gets its data from two sources:</p>
+<ul>
+<li>The European Parliament, via Parltrack, for the European MPs</li>
+<li>The French Parliament, via NosDeputes.fr, for the French MPs</li>
+</ul>
+<p>This data is then used for several things:</p>
+<ul>
+<li>MEP listings and contact details</li>
+<li>voting data</li>
+<li>show these representatives' score according to our voting
+    recommendation</li>
+</ul>
+<p>Once all this data is input, MEPs are rated, votes are recorded and
+citizens can see what a given MEP has been up to, how they've voted on
+specific issues (those on which la Quadrature works).</p>
+<p>Citizens can easily reach out to their representative, at any time, or
+during a specific campaign.</p>
+<p>Eventually, this will increase the connexion between citizens and their
+representatives, putting citizens' concern back at the centre of
+politics.</p>
+<p>For a more lengthy and detailed explanation about what Political Memory
+is about, you can read <a href="http://www.memopol.org/changing-democracy-with-code-a-word-from-the-developers/" title="Changing Democracy With Code: A Word From The Developers">Changing Democracy with Code: a Word from the
+Developpers</a>.</p>
+	<hr/>
+	<h6>Written by <a href="./author/bram.html">bram</a> in <a href="./category/about.html">About</a> on dim. 05 juin 2011.</h6>
+</article>
+
+<hr/>
 						</div>
 						<!-- End Main Content -->
 						<!-- Sidebar -->
@@ -161,8 +211,8 @@
 			</div><!--off-canvas inner-->
 		</div><!--off-canvas wrap-->
 
-		<script src="../theme/js/jquery.js"></script>
-		<script src="../theme/js/foundation.min.js"></script>
+		<script src="./theme/js/jquery.js"></script>
+		<script src="./theme/js/foundation.min.js"></script>
 		<script>
 			$(document).foundation();
 		</script>

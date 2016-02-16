@@ -8,13 +8,13 @@
 		<meta name="description" content="">
 		<meta name="author" content="Memopol Team">
 
-		<link rel="stylesheet" href="/theme/css/foundation.css" />
-		<link rel="stylesheet" href="/theme/css/pygment/monokai.css" />
-        <link rel="stylesheet" href="/theme/css/foundation-icons.css" />
-        <link rel="stylesheet" href="/theme/css/custom.css" />
+		<link rel="stylesheet" href="../theme/css/foundation.css" />
+		<link rel="stylesheet" href="../theme/css/pygment/monokai.css" />
+        <link rel="stylesheet" href="../theme/css/foundation-icons.css" />
+        <link rel="stylesheet" href="../theme/css/custom.css" />
 
 
-		<script src="/theme/js/modernizr.js"></script>
+		<script src="../theme/js/modernizr.js"></script>
 
 		<!-- Feeds -->
 
@@ -52,10 +52,14 @@
 				<!-- mobile side bar nav -->
 				<aside class="left-off-canvas-menu">
 					<ul class="off-canvas-list">
-						<li><a href="">Home</a></li>
+						<li><a href="..">Home</a></li>
 						<li><label>Categories</label></li>
-							<li ><a href="/category/misc.html">misc</a></li>
-							<li ><a href="/category/news.html">News</a></li>
+							<li ><a href="../category/about.html">About</a></li>
+							<li ><a href="../category/development-diary.html">Development diary</a></li>
+							<li ><a href="../category/development-diary-news.html">Development diary, News</a></li>
+							<li ><a href="../category/misc.html">misc</a></li>
+							<li ><a href="../category/news.html">News</a></li>
+							<li ><a href="../category/uncategorized.html">Uncategorized</a></li>
 
 						<li><label>Places</label></li>
 							<li><a href="https://www.laquadrature.net">La Quadrature du Net</a></li>
@@ -70,11 +74,11 @@
 
 				<!-- top bar nav -->
 				<nav class="top-bar hide-for-small-only" data-topbar>
-                    <img src="/theme/img/logo.png"/>
+                    <img src="../theme/img/logo.png"/>
 
 					<ul class="title-area">
 						<li class="name">
-							<h1><a href="/">Memopol Project</a></h1><br/>
+							<h1><a href="../">Memopol Project</a></h1><br/>
                             <span class="slogan">Bridging the gap between politics and citizens</span>
 						</li>
 					</ul>
@@ -83,6 +87,7 @@
 						<ul class="left">
                                 <li><a href="/pages/about-memopol.html">About</a></li>
                                 <li><a href="/category/news.html">News</a></li>
+                                <li><a href="/category/development-diary.html">Development diary</a></li>
                                 <li><a href="/pages/contribute.html">Contribute</a></li>
                                 <li><a href="/pages/download-install-instructions.html">Download & install</a></li>
                                 <li><a href="/pages/contact.html">Contact</a></li>
@@ -114,47 +119,42 @@ We also have a <a href="https://github.com/political-memory">Github</a> page.</p
 <h2>Two goals</h2>
 <ul>
 <li>We want people to help : so let's ease the documentation/installation part</li>
-<li>Separate more core/modules : we want other ngos to use memopol, not just us</li>
+<li>Separate more core/modules : we want other NGOs to use Memopol, not just us</li>
 </ul>
-<h2>Basic features for /core :</h2>
+<h2>Our next steps</h2>
 <ul>
-<li>
-<p>Up to date data toolchain using django-representatives (compotista) and toutatis (for votes)</p>
+<li>A complete redesign of the home page: it is the most important aspect. It's the crucial starting point for all the website. We need it :<ul>
+<li>to be a helpful stepping stone both to citizens discovering the tool <em>and</em> to experienced activists</li>
+<li>to be visually attractive</li>
+<li>to show useful information, data (dataviz)</li>
+<li>to make it quickly obvious what Memopol is and what its purpose is</li>
+<li>to offer the possibility to easily post a new “public position” by a MEP</li>
+</ul>
 </li>
-<li>
-<p>Interface for owner of the instance to search for votes, then add voting recommendations on it with preview</p>
-</li>
-<li>
-<p>3 points of view on the data:</p>
-<ul>
-<li>
-<p>by voting recommendations</p>
-</li>
-<li>
-<p>by country/groups/politicals parties</p>
-</li>
-<li>
-<p>by individuals</p>
-</li>
+<li>A redesign of the MEP (Member of the European Parliament) pages:<ul>
+<li>overview of the MEP, with adminitrative information</li>
+<li>MEP score </li>
+<li>latest public positions with a link to a more complete list</li>
+<li>Data visualization about their MEP's score (beautiful graphs, evolution of score, ...) (dataviz)</li>
+<li>A quick summary widget of the MEP, showing the most important information, easily re-usable on other websites </li>
 </ul>
 </li>
 </ul>
-<p>(we concluded that this was the 3 way you'll want to look at those data)</p>
-<p>Already having all of that would be a very good start and a lot of work</p>
-<h2>What we have now :</h2>
-<div class="highlight"><pre>-  nearly nothing
-</pre></div>
-
-
-<h2>Needs we can draw from this :</h2>
-<div class="highlight"><pre>- nearly everything
-</pre></div>
+<p>A more precise roadmap can be found <a href="https://wiki.laquadrature.net/Projects/Memopol/Roadmap/">here</a>.</p>
 	</div>
 </div>
 						</div>
 						<!-- End Main Content -->
 						<!-- Sidebar -->
 						<aside class="medium-3 hide-for-small-only columns">
+                            <div class="panel">
+                                <h5>More about Memopol</h5>
+                                <ul class="side-nav">
+                                    <li><a href="/pages/changing-democracy-with-code-a-word-from-the-developers.html">Changing Democracy With Code: A Word From The Developers</a></li>
+                                    <li><a href="/pages/faq.html">FAQ (en)</a></li>
+                                    <li><a href="/pages/faq-fr.html">FAQ (fr)</a></li>
+                                </ul>
+                            </div>
 							<div class="panel">
 								<h5>Memopol is used by</h5>
 								<ul class="side-nav">
@@ -188,8 +188,8 @@ We also have a <a href="https://github.com/political-memory">Github</a> page.</p
 			</div><!--off-canvas inner-->
 		</div><!--off-canvas wrap-->
 
-		<script src="/theme/js/jquery.js"></script>
-		<script src="/theme/js/foundation.min.js"></script>
+		<script src="../theme/js/jquery.js"></script>
+		<script src="../theme/js/foundation.min.js"></script>
 		<script>
 			$(document).foundation();
 		</script>

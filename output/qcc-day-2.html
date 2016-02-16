@@ -8,13 +8,13 @@
 		<meta name="description" content="">
 		<meta name="author" content="Memopol Team">
 
-		<link rel="stylesheet" href="../theme/css/foundation.css" />
-		<link rel="stylesheet" href="../theme/css/pygment/monokai.css" />
-        <link rel="stylesheet" href="../theme/css/foundation-icons.css" />
-        <link rel="stylesheet" href="../theme/css/custom.css" />
+		<link rel="stylesheet" href="./theme/css/foundation.css" />
+		<link rel="stylesheet" href="./theme/css/pygment/monokai.css" />
+        <link rel="stylesheet" href="./theme/css/foundation-icons.css" />
+        <link rel="stylesheet" href="./theme/css/custom.css" />
 
 
-		<script src="../theme/js/modernizr.js"></script>
+		<script src="./theme/js/modernizr.js"></script>
 
 		<!-- Feeds -->
 
@@ -52,14 +52,14 @@
 				<!-- mobile side bar nav -->
 				<aside class="left-off-canvas-menu">
 					<ul class="off-canvas-list">
-						<li><a href="..">Home</a></li>
+						<li><a href=".">Home</a></li>
 						<li><label>Categories</label></li>
-							<li ><a href="../category/about.html">About</a></li>
-							<li ><a href="../category/development-diary.html">Development diary</a></li>
-							<li ><a href="../category/development-diary-news.html">Development diary, News</a></li>
-							<li ><a href="../category/misc.html">misc</a></li>
-							<li ><a href="../category/news.html">News</a></li>
-							<li ><a href="../category/uncategorized.html">Uncategorized</a></li>
+							<li ><a href="./category/about.html">About</a></li>
+							<li ><a href="./category/development-diary.html">Development diary</a></li>
+							<li class="active"><a href="./category/development-diary-news.html">Development diary, News</a></li>
+							<li ><a href="./category/misc.html">misc</a></li>
+							<li ><a href="./category/news.html">News</a></li>
+							<li ><a href="./category/uncategorized.html">Uncategorized</a></li>
 
 						<li><label>Places</label></li>
 							<li><a href="https://www.laquadrature.net">La Quadrature du Net</a></li>
@@ -74,11 +74,11 @@
 
 				<!-- top bar nav -->
 				<nav class="top-bar hide-for-small-only" data-topbar>
-                    <img src="../theme/img/logo.png"/>
+                    <img src="./theme/img/logo.png"/>
 
 					<ul class="title-area">
 						<li class="name">
-							<h1><a href="../">Memopol Project</a></h1><br/>
+							<h1><a href="./">Memopol Project</a></h1><br/>
                             <span class="slogan">Bridging the gap between politics and citizens</span>
 						</li>
 					</ul>
@@ -102,20 +102,56 @@
 					<div class="row">
 						<!-- Main Content -->
 						<div class="medium-9 small-12 columns" role="content">
-							<div class="row">
-								<div class="small-12 columns">
-									<h2>Download & Install instructions</h2>
-								</div>
-							</div>
-<div class="row">
-	<div class="small-12 columns">
-		<p>To download Political Memory,</p>
-<p>As of today, you have to clone our git code on our <a href="http://gitorious.org/memopol2-0">gitorious repository</a>.</p>
-<p>For short:
-<code>git clone git://gitorious.org/memopol2-0/memopol2-0.git</code></p>
-<p>Then follow the instructions in the doc/SETUP.txt.</p>
-	</div>
-</div>
+<article>
+	<h2>#QCC, day 2</h2>
+	<p>Hi!</p>
+<p>You probably know that the whole Memopol team is here at the #QCC to
+work on the tool. Being reunited all together in the same place, at the
+same time, gives us the energy necessary to reach our goal!</p>
+<p><img alt="" src="https://pbs.twimg.com/media/A5leoUdCIAIcqwS.jpg" title="Mate, fuel of the event" /></p>
+<p>Here is a quick summary of what we achieved over the week-end.</p>
+<p>Thanks to Bram, the new <strong>scoring</strong> system is ready at the backend
+level. It should be <em>way</em> more logical and easy to understand: Members
+of the EP now start at 0, and they gain or lose points with each vote.
+This will be integrated after the new design is ready.</p>
+<p>Jonathan has started to work on adapting the charts to the new scoring
+system, he will send us the results of his work during the week.</p>
+<p>Some work has also been done on <strong>translating</strong>, most notably on charts.</p>
+<p>Capslock has progessed in the implementation of <strong>public positions.</strong> It
+will allow us to add <strong>press articles</strong> or <strong>quotations</strong> regarding a
+representative to track his/her public position on our subjects.</p>
+<p>Tarnefys is working on importing <strong>Members of the EP's assistants</strong> from
+<a href="http://parltrack.euwiki.org/">Parltrack</a>, which will provide us with
+useful campaigning information.</p>
+<p>Zorun and Gawel have been working on an <strong>achievement</strong> system to
+attribute trophies to MEPs: the backend implementation is mostly ready.
+An <strong>achievement</strong> can be either positive or negative, and represents
+subjective data on a MEP, for instance "<em>ACTA killer"</em>, "<em>top 10
+score"</em>,<em> "most abstentionist MEP"</em>, "<em>has signed amendments on Net
+Neutrality"</em>, and so on.</p>
+<p>Stef fixed the <strong>map</strong> of Europe for <a href="http://respectmynet.eu/list/">Respect My
+Net</a> and
+<a href="https://memopol.lqdn.fr/">Memopol</a>: the maps were really slow to
+display, so he optimized them!</p>
+<p>Ybon helped both teams and allowed us to communicate smoothly. He fixed
+a funny bug with the <strong>search</strong> system: we couldn't understand why
+searching for countries like Belgium (BE) and Austria (AT) didn't work.
+The reason is that "BE" and "AT" were taken as separator words by Woosh,
+our searching framework… You can look at <a href="http://gitorious.org/memopol2-0/memopol2-0/commit/fb2314fa92a49b595d64a35363dd3611db2c1e23">the commit fixing
+this</a>.</p>
+<p>On the design side, we (currently Ybon and myself) warmly welcomed
+Serguei, who helped us <em>a lot</em> \o/ For instance, I drafted some HTML
+that he then integrated on the templates.</p>
+<p>If everything works well, we'll have our <strong>beta-design</strong> by Sunday
+night!</p>
+<p>As you can see, a lot has been done. We'll come back to you pretty soon
+with what was finally achieved and pushed to production and also what's
+planned next!</p>
+	<hr/>
+	<h6>Written by <a href="./author/quota_atypique.html">quota_atypique</a> in <a href="./category/development-diary-news.html">Development diary, News</a> on dim. 21 octobre 2012.</h6>
+</article>
+
+<hr/>
 						</div>
 						<!-- End Main Content -->
 						<!-- Sidebar -->
@@ -161,8 +197,8 @@
 			</div><!--off-canvas inner-->
 		</div><!--off-canvas wrap-->
 
-		<script src="../theme/js/jquery.js"></script>
-		<script src="../theme/js/foundation.min.js"></script>
+		<script src="./theme/js/jquery.js"></script>
+		<script src="./theme/js/foundation.min.js"></script>
 		<script>
 			$(document).foundation();
 		</script>
