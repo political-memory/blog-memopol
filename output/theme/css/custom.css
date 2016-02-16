@@ -9,6 +9,14 @@ a:hover, .side-nav li a:hover {
     color: #164080;
 }
 
+ul.pagination li.current a {
+    background: none repeat scroll 0% 0% #5B8EDC;
+}
+
+ul.pagination li.current a:hover {
+    background: none repeat scroll 0% 0% #164080;
+}
+
 /* Menu */
 .top-bar {
     background: #5B8EDC;
