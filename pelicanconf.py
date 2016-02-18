@@ -25,7 +25,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('La Quadrature du Net', 'https://www.laquadrature.net'),
-         ('LQDN\'s Memopol Instance', 'https://memopol.lqdn.fr/'),
+         ('LQDN\'s Memopol Instance', 'http://lqdn.memopol.eu/'),
         )
 
 # Social widget
