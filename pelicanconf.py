@@ -12,6 +12,9 @@ PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
+LOCALE = u'en_EN.utf8'
+DEFAULT_DATE_FORMAT = '%d/%m/%Y' 
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
