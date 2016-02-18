@@ -56,7 +56,8 @@ ul.pagination li.current a:hover {
     font-size: 1em;
 }
 
-.top-bar-section li a:not(.button):hover {
+.top-bar-section li a:not(.button):hover, 
+.no-js .top-bar-section ul li:hover > a {
     background: none repeat scroll 0% 0% #164080;
     color: #FFF;
 }
