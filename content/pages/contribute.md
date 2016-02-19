@@ -2,14 +2,17 @@ Title: Contribute
 
 # Where is the code ?
 
-All the code is <a href="https://gitorious.org/memopol2-0">here</a> !
-We also have a <a href="https://github.com/political-memory">Github</a> page.
+All the code is <a href="https://github.com/political-memory">here</a>!
+
+# Where is the documentation ?
+
+It can be found [https://memopol.readthedocs.org/en/pr/index.html](here)!
 
 # How can I help ?
 
 Help us improving Memopol and contribute to the code ! It's Python, and Django.
 
-You can also report a bug <a href="https://projets.lqdn.fr/projects/mempol/issues/new">here</a>, also.
+You can also report a bug <a href="https://github.com/political-memory/political_memory/issues">here</a>, also.
 
 # Roadmap
 

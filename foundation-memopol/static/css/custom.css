@@ -13,6 +13,10 @@ ul.pagination li.current a {
     background: none repeat scroll 0% 0% #5B8EDC;
 }
 
+ul.pagination li.current a:hover {
+    background: none repeat scroll 0% 0% #164080;
+}
+
 /* Menu */
 .top-bar {
     background: #5B8EDC;
@@ -52,7 +56,8 @@ ul.pagination li.current a {
     font-size: 1em;
 }
 
-.top-bar-section li a:not(.button):hover {
+.top-bar-section li a:not(.button):hover, 
+.no-js .top-bar-section ul li:hover > a {
     background: none repeat scroll 0% 0% #164080;
     color: #FFF;
 }
