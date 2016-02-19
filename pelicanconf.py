@@ -33,6 +33,7 @@ SOCIAL = (('Twitter', 'https://twitter.com/memopol2'),
          )
 
 MORE =  (('Changing Democracy With Code: A Word From The Developers', '/pages/changing-democracy-with-code-a-word-from-the-developers.html'),
+		('Documentation', 'http://memopol.rtfd.org'),
         ('FAQ (en)', '/pages/faq.html'),
          ('FAQ (fr)', '/pages/faq-fr.html'),
         )
