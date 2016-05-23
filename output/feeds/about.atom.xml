@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Memopol Project</title><link href="http://www.memopol.org/" rel="alternate"></link><link href="http://www.memopol.org/feeds/about.atom.xml" rel="self"></link><id>http://www.memopol.org/</id><updated>2011-06-05T11:34:00+02:00</updated><entry><title>An Introduction to the project</title><link href="http://www.memopol.org/an-introduction-to-the-project.html" rel="alternate"></link><updated>2011-06-05T11:34:00+02:00</updated><author><name>bram</name></author><id>tag:www.memopol.org,2011-06-05:an-introduction-to-the-project.html</id><summary type="html">&lt;p&gt;The best way to explain what Political Memory is, is by explaining where
+it came from.&lt;/p&gt;
+&lt;p&gt;So, let's start by a bit of context. Political Memory is a tool built by
+&lt;a href="http://laquadrature.net"&gt;La Quadrature du Net&lt;/a&gt;. It is its major
+campaigning tool.&lt;/p&gt;
+&lt;p&gt;La Quadrature du Net is a citizen group defending fundamental rights on
+the Internet by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;raising citizen awareness about their political representatives'
+    actions&lt;/li&gt;
+&lt;li&gt;trying to get citizens involved in the political life and demand of
+    their representatives that they represent and defend their rights&lt;/li&gt;
+&lt;li&gt;acting very closely with these representatives&lt;/li&gt;
+&lt;li&gt;organising campaigns during which citizens contact their
+    representatives before certain votes or for given occasions,
+    educating or warning MPs about issues&lt;/li&gt;
+&lt;li&gt;getting MEPs to sign written declarations (for instance, La
+    Quadrature campaigned on a written declaration about
+    &lt;a href="http://laquadrature.net/en/ACTA"&gt;ACTA&lt;/a&gt; which over half the MEPs
+    signed)&lt;/li&gt;
+&lt;li&gt;and most importantly, trying to increase the political cost of
+    decisions. Making sure elected representatives think long and hard
+    about what their constituents will think of their decisions. The
+    Hadopi “three-strike” law in France is a very good example of that.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In order to reach these goals, Political Memory tries to make it easy
+for citizens to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;follow la Quadrature's work, and campaigns&lt;/li&gt;
+&lt;li&gt;understand their representatives' actions&lt;/li&gt;
+&lt;li&gt;make it easy to contact their representatives&lt;/li&gt;
+&lt;li&gt;raise the political cost of representatives' decisions by keeping
+    them under close scrutiny&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In order to work, Political Memory gets its data from two sources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The European Parliament, via Parltrack, for the European MPs&lt;/li&gt;
+&lt;li&gt;The French Parliament, via NosDeputes.fr, for the French MPs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This data is then used for several things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MEP listings and contact details&lt;/li&gt;
+&lt;li&gt;voting data&lt;/li&gt;
+&lt;li&gt;show these representatives' score according to our voting
+    recommendation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once all this data is input, MEPs are rated, votes are recorded and
+citizens can see what a given MEP has been up to, how they've voted on
+specific issues (those on which la Quadrature works).&lt;/p&gt;
+&lt;p&gt;Citizens can easily reach out to their representative, at any time, or
+during a specific campaign.&lt;/p&gt;
+&lt;p&gt;Eventually, this will increase the connexion between citizens and their
+representatives, putting citizens' concern back at the centre of
+politics.&lt;/p&gt;
+&lt;p&gt;For a more lengthy and detailed explanation about what Political Memory
+is about, you can read &lt;a href="http://www.memopol.org/changing-democracy-with-code-a-word-from-the-developers/" title="Changing Democracy With Code: A Word From The Developers"&gt;Changing Democracy with Code: a Word from the
+Developpers&lt;/a&gt;.&lt;/p&gt;</summary></entry></feed>
