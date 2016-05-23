@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Memopol Project</title><link>http://www.memopol.org/</link><description>Bridging the gap between politics and citizens</description><atom:link href="http://www.memopol.org/feeds/development-diary.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 07 Jun 2013 10:44:00 +0200</lastBuildDate><item><title>Recent developments, made short</title><link>http://www.memopol.org/recent-developments-made-short.html</link><description>&lt;p&gt;Hello !&lt;/p&gt;
+&lt;p&gt;We're not &lt;em&gt;that&lt;/em&gt; regular in posting, you'll notice…&lt;br /&gt;
+In fact, we're quite busy these days, because we welcomed new (and
+active!) contributors to the project, who did a lot.&lt;/p&gt;
+&lt;h2&gt;New contributors and happy hacking&lt;/h2&gt;
+&lt;p&gt;You can find all of this improvement on the development instance:
+&lt;a href="http://mempol2.serverside.fr/"&gt;http://mempol2.serverside.fr/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here is a summary of the modifications (more small things have been done
+and some contributors mutually improved each others patchs):&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Mindiell&lt;/em&gt;:&lt;br /&gt;
+*#415: Make the "random MEP" the same for one day&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Turbobilly&lt;/em&gt;:&lt;br /&gt;
+* disable endless paging button&lt;br /&gt;
+* sort meps by last name in votes results&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Yohan Boniface&lt;/em&gt;:&lt;br /&gt;
+* prototype for a new map on the front page that uses d3.js (basically
+now your cpu won't go crazy when you visit the hompepage)&lt;br /&gt;
+&lt;em&gt;&lt;br /&gt;
+Laurent Martelli&lt;/em&gt;:&lt;br /&gt;
+* "download as csv" on every search result&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Okhin&lt;/em&gt;:&lt;br /&gt;
+* display the average score of the meps of a search result&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Gu1&lt;/em&gt;:&lt;br /&gt;
+* performances improvement on search results page&lt;br /&gt;
+* make memopol working with parltrack new historical data (they have
+been put back on the website of the EP, this is a very important news!)&lt;/p&gt;
+&lt;p&gt;Thanks to all of them, they really made the project go forward, we'ere
+amazed \o/&lt;/p&gt;
+&lt;p&gt;Turbobilly also made a proto with microdata, to give MEP's score on
+Google Search results for Memopol !&lt;br /&gt;
+This will strengthten Memopol's influence, because the MEP's scores
+will be easily reachable.&lt;/p&gt;
+&lt;p&gt;And to finish, we have to tell you what was done in the communication
+field the last mouths !&lt;/p&gt;
+&lt;h2&gt;Memopol at the #29c3 \o/&lt;/h2&gt;
+&lt;p&gt;We set up a workshop about Memopol during the 29th Chaos Communication
+Congress this winter.&lt;/p&gt;
+&lt;p&gt;People from all around Europe came to hear about our tool : most of them
+didn't know what it was and came because they were curious.&lt;br /&gt;
+I was a bit disappointed to see that there were not so much people
+motivated to contribute into Memopol (come on, we're hackers, after all!
+), but the conversation was indeed interesting.&lt;/p&gt;
+&lt;p&gt;People from Austria and Germany were quite motivated to have their
+instance of Memopol for their own parliament, and explained how it could
+be difficult to do some open data, because a lot of votes are done by
+hand, which makes it difficult to track. Some French people came too,
+they were quite focused on law issues, it was the occasion to say that
+La Quadrature works to reform the copyright and comments were also
+welcome ;)&lt;br /&gt;
+There was some technical questions, I answered as I can. The mailing
+list and the IRC channel were proposed for further details.&lt;/p&gt;
+&lt;p&gt;So it was a good occasion to show how the tool works and why it's
+wonderful, but I'm sad having not found enthusiastic hackers to help us
+with the code :(&lt;/p&gt;
+&lt;h2&gt;Memopol in a webdocumentary \o/&lt;/h2&gt;
+&lt;p&gt;Julie Neven, young and promising journalist, has made a documentary in
+which Bram explains why Memopol is so important in our citizens' lifes
+\&amp;lt;3&lt;br /&gt;
+It's in French, sorry for those who don't understand.&lt;br /&gt;
+Here →
+&lt;a href="http://www.julieneven.be/souslesbytes/"&gt;http://www.julieneven.be/souslesbytes/&lt;/a&gt;&lt;br /&gt;
+As you can guess, the rest of the documentary is good to see !&lt;/p&gt;
+&lt;h2&gt;Memopol, everywhere&lt;/h2&gt;
+&lt;p&gt;I'm a bit happy with this duty of making Memopol spread everywhere and I
+talk about the project everytime I can. So some people heard about
+Memopol at the &lt;a href="http://www.thsf.net/2013/"&gt;THSF&lt;/a&gt;, and at the last Ubuntu
+Party when I was talking about La Quadrature. Someone said : "Memopol ?
+It's a great tool !" --which was very pleasant to hear \o/&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">quota_atypique</dc:creator><pubDate>Fri, 07 Jun 2013 10:44:00 +0200</pubDate><guid>tag:www.memopol.org,2013-06-07:recent-developments-made-short.html</guid></item><item><title>What’s new on memopol dev n°1</title><link>http://www.memopol.org/whats-new-on-memopol-dev-n1.html</link><description>&lt;p&gt;Hmm, what did we do last week ?&lt;/p&gt;
+&lt;p&gt;We are still working on the design. We gathered a bit more feedback from
+the ones that worked on it at the last quadratelier. Webdesigners need
+more poking around, but we have no worries, quota_atypique pokes around
+a lot.&lt;/p&gt;
+&lt;p&gt;We are about to have a new logo, thanks to cocodaemon \o/  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="logo" src="https://github.com/Psycojoker/memopol2/raw/a809a861f29a4f99c65945cc84a7adf9d8244097/memopol2/static/img/logo.png" /&gt;  &lt;/p&gt;
+&lt;p&gt;This may not be the final version, we are waiting for feedback,
+validations, and all that stuff before saying to the world that we have
+a beauuuutiful logo.&lt;/p&gt;
+&lt;p&gt;We thought about the users who love beautiful things, we thought also
+about the administrators and the developers :  we updated the README
+with new informations, so you won't get lost in all this data. The goal
+is to make it useful to you!  &lt;/p&gt;
+&lt;p&gt;You can see it here
+→&lt;a href="https://github.com/Psycojoker/memopol2#introduction"&gt;https://github.com/Psycojoker/memopol2#introduction&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And we also updated the contributors list, here
+→&lt;a href="https://gitorious.org/memopol2-0/memopol2-0/blobs/master/CREDITS.txt"&gt;https://gitorious.org/memopol2-0/memopol2-0/blobs/master/CREDITS.txt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We also wrote some documentation to help you understand the trend charts
+you can see on Memopol.&lt;br /&gt;
+It's still on dev, we are waiting for feedback before publishing it.
+We'll keep you in touch.&lt;/p&gt;
+&lt;p&gt;We also fixed some little useful points :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;we finish retrieving missing deputies' opinions data from the first
+    version of Memopol, split them between European Parliament and
+    French Nationnal Assemblee and fix the displaying!&lt;/li&gt;
+&lt;li&gt;SEO stuff: when the server is on debug mode, the robots.txt displays
+    a disallow : / for each robot.&lt;/li&gt;
+&lt;li&gt;we pushed i18n support and are translating it to french, &lt;a href="https://www.transifex.net/projects/p/memopol2/language/fr/"&gt;don't
+    hesitate to come and help
+    us&lt;/a&gt; (ask
+    to join the team, we'll approve you ASAP)!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, next steps :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Design, design, design&lt;/li&gt;
+&lt;li&gt;Write moar documentation&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">bram</dc:creator><pubDate>Fri, 11 May 2012 14:00:00 +0200</pubDate><guid>tag:www.memopol.org,2012-05-11:whats-new-on-memopol-dev-n1.html</guid></item></channel></rss>

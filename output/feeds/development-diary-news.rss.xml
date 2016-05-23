@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Memopol Project</title><link>http://www.memopol.org/</link><description>Bridging the gap between politics and citizens</description><atom:link href="http://www.memopol.org/feeds/development-diary-news.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 06 Mar 2013 11:37:00 +0100</lastBuildDate><item><title>Next steps for Memopol</title><link>http://www.memopol.org/next-steps-for-memopol.html</link><description>&lt;p&gt;Political memory is a nice and important project. A lot of work has been
+done lately to make it more friendly.  &lt;/p&gt;
+&lt;p&gt;This is made real because people are here, taking care of the project,
+building it, maintaining it. And, as we want Memopol to be spread
+everywhere, to be powerful, to be better and better, we need people to
+help us achieve this.&lt;/p&gt;
+&lt;h2&gt;So, here the thing :&lt;/h2&gt;
+&lt;p&gt;We have a tremendously useful tool, Memopol, and we have a bunch of
+organisations starving for a practical way to collect data from their
+parliament(s).&lt;br /&gt;
+At the moment, Memopol is very much designed for La Quadrature du Net's
+purpose. That's why it is now so shinny and relevant... for us. But, it
+is not what other organisations are looking for. Organisations fighting
+for spreading farmer seeds want relevant data on last votes about food
+processing or agriculture, French organisations on transparency need
+data from the French Parliament etc.&lt;br /&gt;
+La Quadrature du Net doesn't have nor time nor ressources nor interest
+to provide all of those data. It is then these organisations'
+responsibility to deal with this job. Though, it doesn't mean we can't
+help them.  &lt;/p&gt;
+&lt;p&gt;So here is the aim of this post: part of the Memopol current team
+volunteered to make this fantastic tool transferrable for other use than
+the fight for fundamental freedoms online. But we need more people ready
+to get dirty in the process.&lt;/p&gt;
+&lt;h2&gt;We are looking for :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;django developper (most important for the moment)&lt;/li&gt;
+&lt;li&gt;front end developpers (we aren't using any specific framework, just
+    jquery)&lt;/li&gt;
+&lt;li&gt;webdesigners&lt;/li&gt;
+&lt;li&gt;people who like to play with data and make datavisualization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We know a lot of organisations are interested in Memopol, but often,
+they don't have the skills yet to use it. It would be great if we could
+"package" it, making it really easy to handle and then spread it among
+the world. We would see dozens of little Memopol growing up all around
+the Internetz and making thousands of happy activists call and track
+their representatives. That's how we spread datalove&lt;/p&gt;
+&lt;p&gt;\&amp;lt;3&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">quota_atypique</dc:creator><pubDate>Wed, 06 Mar 2013 11:37:00 +0100</pubDate><guid>tag:www.memopol.org,2013-03-06:next-steps-for-memopol.html</guid></item><item><title>#QCC, day 2</title><link>http://www.memopol.org/qcc-day-2.html</link><description>&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;You probably know that the whole Memopol team is here at the #QCC to
+work on the tool. Being reunited all together in the same place, at the
+same time, gives us the energy necessary to reach our goal!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://pbs.twimg.com/media/A5leoUdCIAIcqwS.jpg" title="Mate, fuel of the event" /&gt;&lt;/p&gt;
+&lt;p&gt;Here is a quick summary of what we achieved over the week-end.&lt;/p&gt;
+&lt;p&gt;Thanks to Bram, the new &lt;strong&gt;scoring&lt;/strong&gt; system is ready at the backend
+level. It should be &lt;em&gt;way&lt;/em&gt; more logical and easy to understand: Members
+of the EP now start at 0, and they gain or lose points with each vote.
+This will be integrated after the new design is ready.&lt;/p&gt;
+&lt;p&gt;Jonathan has started to work on adapting the charts to the new scoring
+system, he will send us the results of his work during the week.&lt;/p&gt;
+&lt;p&gt;Some work has also been done on &lt;strong&gt;translating&lt;/strong&gt;, most notably on charts.&lt;/p&gt;
+&lt;p&gt;Capslock has progessed in the implementation of &lt;strong&gt;public positions.&lt;/strong&gt; It
+will allow us to add &lt;strong&gt;press articles&lt;/strong&gt; or &lt;strong&gt;quotations&lt;/strong&gt; regarding a
+representative to track his/her public position on our subjects.&lt;/p&gt;
+&lt;p&gt;Tarnefys is working on importing &lt;strong&gt;Members of the EP's assistants&lt;/strong&gt; from
+&lt;a href="http://parltrack.euwiki.org/"&gt;Parltrack&lt;/a&gt;, which will provide us with
+useful campaigning information.&lt;/p&gt;
+&lt;p&gt;Zorun and Gawel have been working on an &lt;strong&gt;achievement&lt;/strong&gt; system to
+attribute trophies to MEPs: the backend implementation is mostly ready.
+An &lt;strong&gt;achievement&lt;/strong&gt; can be either positive or negative, and represents
+subjective data on a MEP, for instance "&lt;em&gt;ACTA killer"&lt;/em&gt;, "&lt;em&gt;top 10
+score"&lt;/em&gt;,&lt;em&gt; "most abstentionist MEP"&lt;/em&gt;, "&lt;em&gt;has signed amendments on Net
+Neutrality"&lt;/em&gt;, and so on.&lt;/p&gt;
+&lt;p&gt;Stef fixed the &lt;strong&gt;map&lt;/strong&gt; of Europe for &lt;a href="http://respectmynet.eu/list/"&gt;Respect My
+Net&lt;/a&gt; and
+&lt;a href="https://memopol.lqdn.fr/"&gt;Memopol&lt;/a&gt;: the maps were really slow to
+display, so he optimized them!&lt;/p&gt;
+&lt;p&gt;Ybon helped both teams and allowed us to communicate smoothly. He fixed
+a funny bug with the &lt;strong&gt;search&lt;/strong&gt; system: we couldn't understand why
+searching for countries like Belgium (BE) and Austria (AT) didn't work.
+The reason is that "BE" and "AT" were taken as separator words by Woosh,
+our searching framework… You can look at &lt;a href="http://gitorious.org/memopol2-0/memopol2-0/commit/fb2314fa92a49b595d64a35363dd3611db2c1e23"&gt;the commit fixing
+this&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On the design side, we (currently Ybon and myself) warmly welcomed
+Serguei, who helped us &lt;em&gt;a lot&lt;/em&gt; \o/ For instance, I drafted some HTML
+that he then integrated on the templates.&lt;/p&gt;
+&lt;p&gt;If everything works well, we'll have our &lt;strong&gt;beta-design&lt;/strong&gt; by Sunday
+night!&lt;/p&gt;
+&lt;p&gt;As you can see, a lot has been done. We'll come back to you pretty soon
+with what was finally achieved and pushed to production and also what's
+planned next!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">quota_atypique</dc:creator><pubDate>Sun, 21 Oct 2012 20:44:00 +0200</pubDate><guid>tag:www.memopol.org,2012-10-21:qcc-day-2.html</guid></item><item><title>What's new on Memopol ? #3</title><link>http://www.memopol.org/whats-new-on-memopol-3.html</link><description>&lt;p&gt;Hey, long time we haven't met! And by coincidence we have
+&lt;a href="http://4.bp.blogspot.com/_D_Z-D2tzi14/S8TRIo4br3I/AAAAAAAACv4/Zh7_GcMlRKo/s1600/ALOT.png"&gt;alot&lt;/a&gt;
+of exciting news!&lt;/p&gt;
+&lt;h2&gt;A nicer and nicer Memopol&lt;strong&gt;full of datalove!&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You know we want Memopol to be beautiful. We've worked on it and we now
+have finished the display of the opinions! Here is an
+&lt;a href="https://memopol.lqdn.fr/europe/parliament/opinion/4009/"&gt;example&lt;/a&gt;,
+another
+&lt;a href="https://memopol.lqdn.fr/europe/parliament/opinion/3949/"&gt;example&lt;/a&gt;, and
+a &lt;a href="https://memopol.lqdn.fr/europe/parliament/opinion/3977/"&gt;third
+example&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Elections? Oh wait /o/&lt;/h2&gt;
+&lt;p&gt;You probably heard about the french elections in june…Which means update
+for memopol on the french deputies' side!&lt;/p&gt;
+&lt;p&gt;So, we made various fixes on french deputies pages, there is still more
+work needed, we also use the new nosdeputes.fr widget (&lt;a href="https://memopol.lqdn.fr/france/assemblee/depute/PatriciaAdam/"&gt;example
+here&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;And we are now working on importing the new deputies in Memopol.&lt;/p&gt;
+&lt;p&gt;In addition we now have custom pages for french votes (&lt;a href="https://memopol.lqdn.fr/france/assemblee/vote/Vote_final_loi_Hadopi/"&gt;for
+eg&lt;/a&gt;)
+and are planning on displaying more informations on it.&lt;/p&gt;
+&lt;h2&gt;Another big project&lt;/h2&gt;
+&lt;p&gt;Since the beginning of memopol we want to allow people to do custom
+queries on our dataset and we recently made some progress, you can play
+with our &lt;em&gt;prototype&lt;/em&gt;
+&lt;a href="https://memopol.lqdn.fr/europe/parliament/query/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Datalove without borders&lt;/h2&gt;
+&lt;div id="magicdomid86"&gt;
+Memopol is made to bring your elected representatives closer to you. We
+are working on translations to bring it even closer to you : in your own
+language \\o/
+
+&lt;/p&gt;
+Spanish and deutch translations have begun, you can contribute
+[here](https://www.transifex.net/projects/p/memopol2/), just ask to join
+a team and we'll validate you asap.
+
+Speaking about translations, we made also various fix in translation
+part!
+
+Code, code code
+---------------
+
+On the developement side, you'll notice that we have working system
+tests again!
+
+We are exploring continuous integration with travis but we still have a
+problem of path to run the tests. You can see it
+[here](http://travis-ci.org/#/Psycojoker/memopol2).
+
+Other details
+-------------
+
+Eurodeputies' opinions ' moderation should be faster now, we have
+upgraded it.
+
+On the (modest) SEO side, we have assured ourself on having custom
+\&lt;title\&gt; everywhere!
+
+Also, we added the possibility to edit a zone on top of the right menu
+for jz (kudos to him, he managed to break the whole menu by not closing
+a \&lt;/a\&gt; tag while using his new toy :p).
+
+…And of course, a lot of small bugix, cleaning in trends code by bouska,
+and we can welcome 2 patchs by 2 new contributors:
+[koolfy](http://koolfy.be/) and rogdham, kudos to both of them \\o/.
+Thanks to you, and welcome, guys \\o/
+
+\&lt;3
+
+&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">quota_atypique</dc:creator><pubDate>Wed, 27 Jun 2012 09:01:00 +0200</pubDate><guid>tag:www.memopol.org,2012-06-27:whats-new-on-memopol-3.html</guid></item><item><title>What's new on Memopol ? #2</title><link>http://www.memopol.org/whats-new-on-memopol-2.html</link><description>&lt;p&gt;We did pretty nice thing the last weeks!&lt;/p&gt;
+&lt;h3&gt;Memopol, prettier for the summer&lt;/h3&gt;
+&lt;p&gt;First of all, let us introduce you to our brand new logo! \o/&lt;/p&gt;
+&lt;p&gt;&lt;img alt="logo" src="https://memopol.lqdn.fr/static/img/logo.png" /&gt;&lt;/p&gt;
+&lt;p&gt;It is on prod, and as we warned you last time, it has been modified a
+bit to be more parliament-like. Now it won't change and we're quite
+proud of it!&lt;/p&gt;
+&lt;p&gt;Let's all thank Alban for this great work!&lt;/p&gt;
+&lt;p&gt;Another great news with pictures : please check the new very nice map on
+&lt;a href="https://memopol.lqdn.fr/"&gt;the homepage!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.memopol.org/wp-content/uploads/2012/05/memopol-map.png"&gt;&lt;img alt="map" src="http://www.memopol.org/wp-content/uploads/2012/05/memopol-map-300x282.png" title="memopol-map" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nice, isn't it ?&lt;/p&gt;
+&lt;h3&gt;Documentation, moar documentation&lt;/h3&gt;
+&lt;p&gt;Also, we have published documentation that explains how to read the
+graphs that we use in Memopol to allow you to have a better vision of
+what has happened.&lt;/p&gt;
+&lt;p&gt;You can see it here →
+&lt;a href="https://memopol.lqdn.fr/trends/documentation/"&gt;https://memopol.lqdn.fr/trends/documentation/&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Rest API&lt;/h3&gt;
+&lt;p&gt;Good news everyone! Memopol now offers most of its data via a Rest API
+so you can build applications related to it! You can find all the
+informations in the &lt;a href="https://memopol.lqdn.fr/api/"&gt;related documentation
+page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Don't hesitate in giving us feedback and to build awesome things with
+it!&lt;/p&gt;
+&lt;h3&gt;Feeding Memopol with data&lt;/h3&gt;
+&lt;p&gt;On the data side, we retrieved opinions from memopol1, this allows us to
+distinguish between French deputies' opinions and eurodeputies'
+opinions, this informations was lost in the previous data importation.
+For French deputies' opinions, correct interfaces to display data are
+still needed.&lt;/p&gt;
+&lt;p&gt;The next step now is to make a better interface to display them. We want
+you to get the most of it, opinions beeing a very important part of
+Memopol!&lt;/p&gt;
+&lt;h3&gt;Memopol now speak French!&lt;/h3&gt;
+&lt;p&gt;We have just finished the translation of the interface! Thanks to our
+&lt;a href="https://www.transifex.net/projects/p/memopol2/language/fr/"&gt;awesome french
+team&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;You still might see text in english there and there, this is because
+it's dynamic data either coming from parltrack or from our project, this
+will need further work to tacle it but we'll sure handle it one day.&lt;/p&gt;
+&lt;p&gt;Also, we have just created teams on transifex to translate Memopol in
+&lt;a href="https://www.transifex.net/projects/p/memopol2/language/nl/"&gt;Dutch&lt;/a&gt;,
+&lt;a href="https://www.transifex.net/projects/p/memopol2/language/de/"&gt;German&lt;/a&gt;,
+&lt;a href="https://www.transifex.net/projects/p/memopol2/language/hu/"&gt;Hungarian&lt;/a&gt;,
+&lt;a href="https://www.transifex.net/projects/p/memopol2/language/it/"&gt;Italian&lt;/a&gt;,
+&lt;a href="https://www.transifex.net/projects/p/memopol2/language/pl/"&gt;Polish&lt;/a&gt;,
+&lt;a href="https://www.transifex.net/projects/p/memopol2/language/es/"&gt;Spanish&lt;/a&gt;
+and
+&lt;a href="https://www.transifex.net/projects/p/memopol2/language/sv/"&gt;Swedish&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I you feel confident in any of those languages don't hesitate to ask to
+join a team on transifex and if you want to see Memopol translated in
+another language don't hesitate to &lt;a href="https://memopol.lqdn.fr/contact/"&gt;contact
+us&lt;/a&gt; about that!&lt;/p&gt;
+&lt;h3&gt;As we love Memopol, we chase bugs&lt;/h3&gt;
+&lt;p&gt;To insure that we can fix bugs as soon as they appear, we have deployed
+a &lt;a href="https://github.com/dcramer/sentry"&gt;sentry&lt;/a&gt; to get a detailed repport
+each time a new bug shows up! It has already been useful, as we have
+already found and fixed bugs thanks to this!&lt;/p&gt;
+&lt;p&gt;We also fixed the csv link that was'nt working.&lt;/p&gt;
+&lt;p&gt;We fixed other minor bugs -we won't bother you with the list, but be
+sure that we take care of Memopol!&lt;/p&gt;
+&lt;p&gt;That's it for this post \o/&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">bram</dc:creator><pubDate>Fri, 01 Jun 2012 09:08:00 +0200</pubDate><guid>tag:www.memopol.org,2012-06-01:whats-new-on-memopol-2.html</guid></item><item><title>What's new on memopol dev n°0</title><link>http://www.memopol.org/whats-new-on-memopol-dev-n0.html</link><description>&lt;p&gt;Hello everyone, this is the beginning of a series of development diaries
+to report on the progress of our project!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Latest improvements:&lt;/strong&gt;&lt;br /&gt;
+As part of the latest improvements we have:&lt;/p&gt;
+&lt;p&gt;A great patch by new contributors: &lt;a href=""&gt;emel&lt;/a&gt; and
+&lt;a href="http://marmelune.net"&gt;benoitb&lt;/a&gt;. They have managed to reduce the
+incredibly high number of queries on every page where we list european
+deputies.&lt;/p&gt;
+&lt;p&gt;Now eurpdeputies' score is displayed in the listings, so you'll see in a
+quick look how net-neutrality friendly your deputy is.&lt;br /&gt;
+&lt;em&gt;See, notes are colorized from red to green depending on the value of
+the score :&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.memopol.org/wp-content/uploads/2012/04/memopol-notes.png"&gt;&lt;img alt="" src="http://www.memopol.org/wp-content/uploads/2012/04/memopol-notes-300x116.png" title="memopol-notes" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And we can make .csv exports ! Which is great, if you want to download
+the data and have it in your favourite spreadsheets editor. This can
+help to prepare talks, or to play with the data a bit.&lt;br /&gt;
+&lt;em&gt;See (it's on the top right of every list) :&lt;/em&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.memopol.org/wp-content/uploads/2012/04/memopol-csv.jpg"&gt;&lt;img alt="" src="http://www.memopol.org/wp-content/uploads/2012/04/memopol-csv-300x107.jpg" title="memopol-csv" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Another important piece of news: the whole European Parliament website
+has changed. This is both good and bad news.&lt;/p&gt;
+&lt;p&gt;Good news, because this new version offers some new information and is
+better overall.&lt;/p&gt;
+&lt;p&gt;Bad news, we have less data now, especially the previous commitment of a
+deputy in a commitee, delegation or mandate, and the starting date of
+the current commitment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Upcoming:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;News about the design ! We're working on it :)&lt;/p&gt;
+&lt;p&gt;Memopol is still &lt;a href="http://www.memopol.org/faq/" title="FAQ (en)"&gt;looking for more
+contributors&lt;/a&gt;, so send us an
+email or drop by on IRC (#lqdn-memopol on Freenode or via the
+&lt;a href="http://webchat.freenode.net"&gt;webchat&lt;/a&gt; if you don't have a client) if
+you want to start participating!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">bram</dc:creator><pubDate>Mon, 30 Apr 2012 20:11:00 +0200</pubDate><guid>tag:www.memopol.org,2012-04-30:whats-new-on-memopol-dev-n0.html</guid></item></channel></rss>
