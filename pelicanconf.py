@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+
 AUTHOR = u'Memopol Team'
 SITENAME = u'Memopol Project'
 SITEURL = 'http://www.memopol.org/'
@@ -56,6 +58,9 @@ PLUGINS = ['pin_to_top']
 
 #Theme
 THEME = "/var/www/memopol-blog/foundation-memopol"
+
+if not os.path.exists('THEME'):
+    THEME = 'foundation-memopol'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
