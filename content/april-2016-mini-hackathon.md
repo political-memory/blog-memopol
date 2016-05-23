@@ -5,7 +5,7 @@ Author: njoyard
 
 ### Memopol Mini-Hackathon
 
-After the Memopol 3.14 Relaunch Event on 14th April (*we'll put a link to the video as soon as it's available*), the developers didn't rest !
+After the Memopol 3.14 [Relaunch Event on 14th April](http://mediakit.laquadrature.net/embed/2390), the developers didn't rest !
 
 ![The Chambers view shows available chambers](https://framapic.org/0I9FmC0pH8HY/u8BTfyKzG5ME.png)
 
@@ -21,5 +21,5 @@ Those improvements will soon be available on a test instance of Memopol to enabl
 
 As said before, don't hesitate to contribute or suggest ideas for the project:
 
-* On github : [github.com/political-memory/political_memory][https://github.com/political-memory/political_memory]
+* On github : [github.com/political-memory/political_memory](https://github.com/political-memory/political_memory)
 * On IRC : `#lqdn-memopol` on Freenode
