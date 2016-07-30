@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+
 AUTHOR = u'Memopol Team'
 SITENAME = u'Memopol Project'
 SITEURL = 'http://www.memopol.org/'
@@ -51,11 +53,11 @@ MENUITEMS = (('About', '/pages/about-memopol.html'),
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 
-PLUGIN_PATHS = ["plugins", "/var/www/memopol-blog/plugins/"]
+PLUGIN_PATHS = ["plugins", os.path.join(os.path.dirname(__file__), 'plugins')]
 PLUGINS = ['pin_to_top']
 
 #Theme
-THEME = "/var/www/memopol-blog/foundation-memopol"
+THEME = os.path.join(os.path.dirname(__file__), 'foundation-memopol')
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
