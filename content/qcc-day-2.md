@@ -1,7 +1,7 @@
 Title: #QCC, day 2
 Date: 2012-10-21 20:44
 Author: quota_atypique
-Category: Development diary, News
+Category: News
 Slug: qcc-day-2
 
 Hi!

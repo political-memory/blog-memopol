@@ -1,7 +1,7 @@
 Title: What's new on memopol dev n°0
 Date: 2012-04-30 20:11
 Author: bram
-Category: Development diary, News
+Category: News
 Slug: whats-new-on-memopol-dev-n0
 
 Hello everyone, this is the beginning of a series of development diaries
