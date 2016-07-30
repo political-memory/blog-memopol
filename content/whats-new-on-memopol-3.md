@@ -1,7 +1,7 @@
 Title: What's new on Memopol ? #3
 Date: 2012-06-27 09:01
 Author: quota_atypique
-Category: Development diary, News
+Category: News
 Slug: whats-new-on-memopol-3
 
 Hey, long time we haven't met! And by coincidence we have

@@ -1,7 +1,7 @@
 Title: What's new on Memopol ? #2
 Date: 2012-06-01 09:08
 Author: bram
-Category: Development diary, News
+Category: News
 Slug: whats-new-on-memopol-2
 
 We did pretty nice thing the last weeks!

@@ -1,7 +1,7 @@
 Title: Next steps for Memopol
 Date: 2013-03-06 11:37
 Author: quota_atypique
-Category: Development diary, News
+Category: News
 Slug: next-steps-for-memopol
 
 Political memory is a nice and important project. A lot of work has been

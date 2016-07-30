@@ -1,7 +1,7 @@
 Title: What’s new on memopol dev n°1
 Date: 2012-05-11 14:00
 Author: bram
-Category: Development diary
+Category: News
 Slug: whats-new-on-memopol-dev-n1
 
 Hmm, what did we do last week ?
