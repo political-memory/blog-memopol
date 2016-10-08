@@ -59,5 +59,8 @@ PLUGINS = ['pin_to_top']
 #Theme
 THEME = os.path.join(os.path.dirname(__file__), 'foundation-memopol')
 
+if not os.path.exists('THEME'):
+    THEME = 'foundation-memopol'
+
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
